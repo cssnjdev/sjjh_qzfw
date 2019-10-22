@@ -4,7 +4,6 @@ import com.alibaba.fastjson.JSONObject;
 import com.cwks.common.core.systemConfig.SpringContextUtil;
 import com.cwks.common.api.dto.ext.RequestEvent;
 import com.cwks.common.api.dto.ext.ResponseEvent;
-import com.cwks.common.service.impl.BaseService;
 import org.springframework.amqp.core.AmqpTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -12,7 +11,7 @@ import org.springframework.stereotype.Service;
 import java.util.concurrent.ConcurrentHashMap;
 
 @Service("jhDlQzMqService")
-public class JhDlQzMqService extends BaseService {
+public class JhDlQzMqService {
 
 	//@Resource
 	@Autowired
