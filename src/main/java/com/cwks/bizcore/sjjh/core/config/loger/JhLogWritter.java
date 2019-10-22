@@ -1,4 +1,4 @@
-package com.cwks.bizcore.sjjh.core.config.log;
+package com.cwks.bizcore.sjjh.core.config.loger;
 
 import com.cwks.common.core.systemConfig.BizContext;
 import com.cwks.bizcore.comm.utils.JsonUtil;

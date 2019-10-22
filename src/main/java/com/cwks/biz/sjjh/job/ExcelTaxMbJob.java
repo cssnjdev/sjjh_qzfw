@@ -1,10 +1,11 @@
 package com.cwks.biz.sjjh.job;
 
-import com.cwks.bizcore.sjjh.core.config.log.JhLogWritter;
-import com.cwks.bizcore.sjjh.core.utils.CusAccessObjectUtil;
-import com.cwks.bizcore.sjjh.core.vo.JhJobTempletEvent;
 import org.springframework.beans.BeansException;
 import org.springframework.stereotype.Component;
+
+import com.cwks.bizcore.sjjh.core.config.loger.JhLogWritter;
+import com.cwks.bizcore.sjjh.core.utils.CusAccessObjectUtil;
+import com.cwks.bizcore.sjjh.core.vo.JhJobTempletEvent;
 
 
 /**

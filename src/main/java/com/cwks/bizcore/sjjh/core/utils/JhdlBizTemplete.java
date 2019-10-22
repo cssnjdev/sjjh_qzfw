@@ -2,13 +2,12 @@ package com.cwks.bizcore.sjjh.core.utils;
 
 import java.util.concurrent.ConcurrentHashMap;
 
-import com.cwks.bizcore.sjjh.core.config.log.JhLogWritter;
 import org.junit.runner.RunWith;
-import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.stereotype.Component;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
+import com.cwks.bizcore.sjjh.core.config.loger.JhLogWritter;
 import com.cwks.bizcore.sjjh.core.vo.BeansUtils;
 import com.cwks.bizcore.sjjh.core.vo.JhDlTempletEvent;
 

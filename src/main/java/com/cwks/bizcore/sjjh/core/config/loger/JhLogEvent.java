@@ -1,4 +1,4 @@
-package com.cwks.bizcore.sjjh.core.config.log;
+package com.cwks.bizcore.sjjh.core.config.loger;
 
 import java.io.Serializable;
 import java.util.Date;

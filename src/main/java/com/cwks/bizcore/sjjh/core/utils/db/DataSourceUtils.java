@@ -43,10 +43,10 @@ import org.springframework.jdbc.support.lob.LobCreator;
 import org.springframework.jdbc.support.lob.LobHandler;
 import org.springframework.jdbc.support.rowset.SqlRowSet;
 
-import com.cwks.bizcore.sjjh.core.config.log.JhLogWritter;
+import com.cwks.bizcore.sjjh.core.config.loger.JhLogWritter;
+import com.cwks.common.core.systemConfig.SystemContext;
 import com.cwks.common.util.db.BeanUtils;
 import com.cwks.common.util.db.ext.SqlUtils;
-import com.cwks.common.core.systemConfig.SystemContext;
 import com.cwks.common.util.db.oracl.StoredProcManager;
 import com.cwks.common.util.db.oracl.StoredProcParamObj;
 

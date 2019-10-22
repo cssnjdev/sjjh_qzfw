@@ -1,16 +1,8 @@
 package com.cwks.bizcore.sjjh.core.service;
 
-import com.alibaba.fastjson.JSONObject;
-import com.cwks.common.service.ServiceDelegate;
-import com.cwks.bizcore.comm.utils.AESCoder;
-import com.cwks.bizcore.comm.utils.AESCoder;
-import com.cwks.bizcore.sjjh.core.config.JhQzFwContext;
-import com.cwks.bizcore.sjjh.core.config.log.JhLogEvent;
-import com.cwks.bizcore.sjjh.core.config.log.JhLogWritter;
-import com.cwks.bizcore.sjjh.core.utils.ComProConf;
-import com.cwks.common.api.dto.ext.RequestEvent;
-import com.cwks.common.api.dto.ext.ResponseEvent;
-import com.cwks.common.service.ServiceDelegate;
+import java.util.Map;
+import java.util.concurrent.ConcurrentHashMap;
+
 import org.springframework.beans.factory.ObjectFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
@@ -18,8 +10,15 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.client.RestTemplate;
 
-import java.util.Map;
-import java.util.concurrent.ConcurrentHashMap;
+import com.alibaba.fastjson.JSONObject;
+import com.cwks.bizcore.comm.utils.AESCoder;
+import com.cwks.bizcore.sjjh.core.config.JhQzFwContext;
+import com.cwks.bizcore.sjjh.core.config.loger.JhLogEvent;
+import com.cwks.bizcore.sjjh.core.config.loger.JhLogWritter;
+import com.cwks.bizcore.sjjh.core.utils.ComProConf;
+import com.cwks.common.api.dto.ext.RequestEvent;
+import com.cwks.common.api.dto.ext.ResponseEvent;
+import com.cwks.common.service.ServiceDelegate;
 
 /**
  * <p>File: JhQzFwService.java</p>
