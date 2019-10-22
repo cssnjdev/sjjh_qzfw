@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>=====</title>
+	<meta http-equiv="pragma" content="no-cache">
+	<meta http-equiv="cache-control" content="no-cache">
+	<meta http-equiv="expires" content="0">    
+	<meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
+	<meta http-equiv="description" content="This is my page">
+	<script type="text/javascript" src="/public/js/core/jquery/jquery-1.8.3.min.js"></script>
+	<script type="text/javascript" src="/workflow/core/workflow.js"></script>
+  </head>
+  <script type="text/javascript">
+  
+  		//start jsonp callBack
+		function cssnj_workflow_getDbrw_callBack(data) {
+			//alert(data.success);
+			if (data.success == "1") {
+		 		
+		 		var jsonData = data.dbrwList;
+		        	//alert(jsonData);
+					for (o in jsonData) {
+						
+						var newTr = dbrw.insertRow();			
+						var newTd0 = newTr.insertCell();
+						var newTd1 = newTr.insertCell();
+						var newTd2 = newTr.insertCell();
+						var newTd3 = newTr.insertCell();
+						var newTd4 = newTr.insertCell();
+						var newTd5 = newTr.insertCell();
+						var newTd6 = newTr.insertCell();
+						var newTd7 = newTr.insertCell();
+						var newTd8 = newTr.insertCell();
+						var newTd9 = newTr.insertCell();
+						var newTd10 = newTr.insertCell();
+						var newTd11 = newTr.insertCell();
+						var newTd12 = newTr.insertCell();
+						var newTd13 = newTr.insertCell();
+						var newTd14 = newTr.insertCell();
+						
+						newTd0.innerText= jsonData[o].LCMC;
+						newTd1.innerText= jsonData[o].LCSLH;
+						newTd2.innerText= jsonData[o].PROCESSINSTANCEID;
+						newTd3.innerText= jsonData[o].QDSJ;
+						newTd4.innerText= jsonData[o].QDRY;
+						newTd5.innerText= jsonData[o].LCZT;
+						newTd6.innerText= jsonData[o].JGDM;
+						newTd7.innerText= jsonData[o].SXDM;
+						newTd8.innerText= jsonData[o].TASKNAME;
+						newTd9.innerText= jsonData[o].CREATETIME;
+						newTd10.innerText= jsonData[o].TASKID;
+						newTd11.innerText= jsonData[o].DBJGDM;
+						newTd12.innerText= jsonData[o].DBGWDM;
+						newTd13.innerHTML = '<input type=button value="签收" onclick=claim("' + jsonData[o].TASKID + '","' + jsonData[o].LCSLH + '","' + jsonData[o].PROCESSINSTANCEID + '","' + jsonData[o].HDDYID + '")>';
+						
+					}
+		 	}
+			
+		}
+		
+		
+		//start jsonp callBack
+		function cssnj_workflow_getWtrw_callBack(data) {
+			//alert(data.success);
+			if (data.success == "1") {
+		 		
+		 		var jsonData = data.wtrwList;
+		        	//alert(jsonData);
+					for (o in jsonData) {
+						
+						var newTr = wtrw.insertRow();			
+						var newTd0 = newTr.insertCell();
+						var newTd1 = newTr.insertCell();
+						var newTd2 = newTr.insertCell();
+						var newTd3 = newTr.insertCell();
+						var newTd4 = newTr.insertCell();
+						var newTd5 = newTr.insertCell();
+						var newTd6 = newTr.insertCell();
+						var newTd7 = newTr.insertCell();
+						var newTd8 = newTr.insertCell();
+						var newTd9 = newTr.insertCell();
+						var newTd10 = newTr.insertCell();
+						var newTd11 = newTr.insertCell();
+						var newTd12 = newTr.insertCell();
+						var newTd13 = newTr.insertCell();
+						var newTd14 = newTr.insertCell();
+						
+						newTd0.innerText= jsonData[o].LCMC;
+						newTd1.innerText= jsonData[o].LCSLH;
+						newTd2.innerText= jsonData[o].PROCESSINSTANCEID;
+						newTd3.innerText= jsonData[o].QDSJ;
+						newTd4.innerText= jsonData[o].QDRY;
+						newTd5.innerText= jsonData[o].LCZT;
+						newTd6.innerText= jsonData[o].JGDM;
+						newTd7.innerText= jsonData[o].SXDM;
+						newTd8.innerText= jsonData[o].TASKNAME;
+						newTd9.innerText= jsonData[o].WTSJ;
+						newTd10.innerText= jsonData[o].WORKITEMID;
+						newTd11.innerText= jsonData[o].WTJGDM;
+						newTd12.innerText= jsonData[o].WTGWDM;
+						newTd13.innerHTML = '<input type=button value="接受委托" onclick=acceptWtrw("' + jsonData[o].WORKITEMID + '","' + jsonData[o].WTID + '")>';
+						
+					}
+		 	}
+			
+		}
+		
+		
+		//start jsonp callBack
+		function cssnj_workflow_getZbrw_callBack(data) {
+			//alert(data.success);
+			if (data.success == "1") {
+		 		
+		 		var jsonData = data.zbrwList;
+		        	//alert(jsonData);
+					for (o in jsonData) {
+						
+						var newTr = zbrw.insertRow();			
+						var newTd0 = newTr.insertCell();
+						var newTd1 = newTr.insertCell();
+						var newTd2 = newTr.insertCell();
+						var newTd3 = newTr.insertCell();
+						var newTd4 = newTr.insertCell();
+						var newTd5 = newTr.insertCell();
+						var newTd6 = newTr.insertCell();
+						var newTd7 = newTr.insertCell();
+						var newTd8 = newTr.insertCell();
+						var newTd9 = newTr.insertCell();
+						var newTd10 = newTr.insertCell();
+						var newTd11 = newTr.insertCell();
+						var newTd12 = newTr.insertCell();
+						var newTd13 = newTr.insertCell();
+						var newTd14 = newTr.insertCell();
+						
+						newTd0.innerText= jsonData[o].LCMC;
+						newTd1.innerText= jsonData[o].LCSLH;
+						newTd2.innerText= jsonData[o].PROCESSINSTANCEID;
+						newTd3.innerText= jsonData[o].QDSJ;
+						newTd4.innerText= jsonData[o].YWCSJ;
+						newTd5.innerText= jsonData[o].QDRY;
+						newTd6.innerText= jsonData[o].LCZT;
+						newTd7.innerText= jsonData[o].JGDM;
+						newTd8.innerText= jsonData[o].SXDM;
+						newTd9.innerText= jsonData[o].TASKNAME;
+						newTd10.innerText= jsonData[o].WTSJ;
+						newTd11.innerText= jsonData[o].WORKITEMID;
+						newTd12.innerText= jsonData[o].WTJGDM;
+						newTd13.innerText= jsonData[o].TSFS;
+						newTd14.innerHTML = '<input type=button value="打开" onclick=openYwdy("' + jsonData[o].URL  + '&lcslh=' +  jsonData[o].LCSLH + '&workItemId=' + jsonData[o].WORKITEMID + '")>';
+						
+					}
+		 	}
+			
+		}
+		
+		//start jsonp callBack
+		function cssnj_workflow_getYbrw_callBack(data) {
+			//alert(data.success);
+			if (data.success == "1") {
+		 		
+		 		var jsonData = data.ybrwList;
+		        	//alert(jsonData);
+					for (o in jsonData) {
+						
+						var newTr = ybrw.insertRow();			
+						var newTd0 = newTr.insertCell();
+						var newTd1 = newTr.insertCell();
+						var newTd2 = newTr.insertCell();
+						var newTd3 = newTr.insertCell();
+						var newTd4 = newTr.insertCell();
+						var newTd5 = newTr.insertCell();
+						var newTd6 = newTr.insertCell();
+						var newTd7 = newTr.insertCell();
+						var newTd8 = newTr.insertCell();
+						var newTd9 = newTr.insertCell();
+						var newTd10 = newTr.insertCell();
+						var newTd11 = newTr.insertCell();
+						var newTd12 = newTr.insertCell();
+						var newTd13 = newTr.insertCell();
+						var newTd14 = newTr.insertCell();
+						
+						newTd0.innerText= jsonData[o].LCMC;
+						newTd1.innerText= jsonData[o].LCSLH;
+						newTd2.innerText= jsonData[o].PROCESSINSTANCEID;
+						newTd3.innerText= jsonData[o].QDSJ;
+						newTd4.innerText= jsonData[o].QDRY;
+						newTd5.innerText= jsonData[o].LCZT;
+						newTd6.innerText= jsonData[o].JGDM;
+						newTd7.innerText= jsonData[o].SXDM;
+						newTd8.innerText= jsonData[o].TASKNAME;
+						newTd9.innerText= jsonData[o].WTSJ;
+						newTd10.innerText= jsonData[o].WORKITEMID;
+						newTd11.innerText= jsonData[o].WTJGDM;
+						newTd12.innerText= jsonData[o].TSFS;
+						newTd13.innerHTML = '<input type=button value="打开" onclick=acceptWtrw("' + jsonData[o].WORKITEMID + '","' + jsonData[o].WTID + '")>';
+						
+					}
+		 	}
+			
+		}
+		
+  		function init() {
+				
+		  	$.ajax({
+		        type: "post",
+		        url: "http://localhost:8001/cssnj/ajax.action?tld=WfWebUtil_getDbrw&callback=cssnj_workflow_getDbrw_callBack",
+		        data: {"rydm": "23201001654", "jgdm":"23201030400", "gwdm":"232000000028"},
+		        cache: false,
+		        dataType: "jsonp", 
+		        contentType: "application/x-www-form-urlencoded;charset=UTF-8",
+		        beforeSend: function () {
+		        	
+		           // $("#box").datagrid("loading");
+		        },
+		        success: function (data) {
+		        	
+		        }
+		    });
+		    
+		    $.ajax({
+		        type: "post",
+		        url: "http://localhost:8001/cssnj/ajax.action?tld=WfWebUtil_getWtrw&callback=cssnj_workflow_getWtrw_callBack",
+		        data: {"rydm": "23201001654", "jgdm":"23201030400", "gwdm":"232000000028"},
+		        cache: false,
+		        dataType: "jsonp", 
+		        contentType: "application/x-www-form-urlencoded;charset=UTF-8",
+		        beforeSend: function () {
+		        	
+		           // $("#box").datagrid("loading");
+		        },
+		        success: function (data) {
+		        	
+		        }
+		    });
+		    
+		    
+		     $.ajax({
+		        type: "post",
+		        url: "http://localhost:8001/cssnj/ajax.action?tld=WfWebUtil_getZbrw&callback=cssnj_workflow_getZbrw_callBack",
+		        data: {"rydm": "23201001654", "jgdm":"23201030400", "gwdm":"232000000028"},
+		        cache: false,
+		        dataType: "jsonp", 
+		        contentType: "application/x-www-form-urlencoded;charset=UTF-8",
+		        beforeSend: function () {
+		        	
+		           // $("#box").datagrid("loading");
+		        },
+		        success: function (data) {
+		        	
+		        }
+		    });
+		    
+		    
+		   $.ajax({
+		        type: "post",
+		        url: "http://localhost:8001/cssnj/ajax.action?tld=WfWebUtil_getYbrw&callback=cssnj_workflow_getYbrw_callBack",
+		        data: {"rydm": "23201001654", "jgdm":"23201030400", "gwdm":"232000000028"},
+		        cache: false,
+		        dataType: "jsonp", 
+		        contentType: "application/x-www-form-urlencoded;charset=UTF-8",
+		        beforeSend: function () {
+		        	
+		           // $("#box").datagrid("loading");
+		        },
+		        success: function (data) {
+		        	
+		        }
+		    });
+	
+  		}
+  		
+  		function claim(taskId,lcslh,processInstanceId,hddyid) {
+  			//alert(taskId);
+  			
+				
+  			var obj = new Object();
+  			obj.lcslh = lcslh;
+  			obj.processInstanceId = processInstanceId;
+  			obj.rydm = "23201001654";
+  			obj.taskId = taskId;
+  			obj.hddyId = hddyid;
+  			obj.jgdm = "23201030400";
+  			obj.gwdm = "232000000028";
+  			
+  			var data = JSON.stringify(obj);
+			
+			data = eval('(' + data + ')');
+  			
+  			$.ajax({
+		        type: "post",
+		        url: "http://localhost:8001/cssnj/ajax.action?tld=WfWebUtil_claimTask&callback=cssnj_workflow_claim_callBack",
+		        //data: {"userId": "wangjun", "taskId" : taskId},
+		        data : data,
+		        cache: false,
+		        contentType: "application/x-www-form-urlencoded;charset=UTF-8",
+		        beforeSend: function () {
+		        	
+		           // $("#box").datagrid("loading");
+		        },
+		        success: function (data) {
+				
+		        }
+		    });
+	
+  		}
+  		
+  		
+  		function acceptWtrw(workItemId, wtId) {
+  			//alert(taskId);
+				
+  			var obj = new Object();
+  			obj.userId = "wj";
+  			obj.wtId = wtId;
+  			obj.workItemId = workItemId;
+  			obj.blryJgdm = "23200000000";
+  			obj.blryGwdm = "gwdm";
+  			
+  			var data = JSON.stringify(obj);
+			
+			data = eval('(' + data + ')');
+  			
+  			$.ajax({
+		        type: "post",
+		        url: "http://localhost:8001/cssnj/ajax.action?tld=WfWebUtil_acceptWtWorkItem&callback=cssnj_workflow_claim_callBack",
+		        //data: {"userId": "wangjun", "taskId" : taskId},
+		        data : data,
+		        cache: false,
+		        contentType: "application/x-www-form-urlencoded;charset=UTF-8",
+		        beforeSend: function () {
+		        	
+		           // $("#box").datagrid("loading");
+		        },
+		        success: function (data) {
+
+		        }
+		    });
+	
+  		}
+  		
+  		function openYwdy(url) {
+  			//alert(taskId);
+  		
+			window.open(url);
+	
+  		}
+  		
+  		//claim jsonp callBack
+		function cssnj_workflow_claim_callBack(data) {
+			alert(data); 
+		}
+		
+  		function goTo(taskUrl) {
+  			window.open(taskUrl);
+  		}
+  </script>
+  <body onload="init()">
+  
+    
+      代办任务
+     <br/>
+     <table border=1 width="100%" id="dbrw">
+     	<tr>
+     		<td>流程名称</td><td>流程实例号</td><td>processInstanceID</td><td>启动时间</td><td>启动人员</td><td>流程状态</td><td>机关</td><td>流程事项</td><td>任务名称</td><td>任务启动时间</td><td>任务ID</td><td>待办机关</td><td>待办岗位</td><td>操作</td>
+     	</tr>
+     </table>
+     <hr/>
+     
+       待办委托任务
+     <br/>
+     <table border=1 width="100%" id="wtrw">
+     	<tr>
+     		<td>流程名称</td><td>流程实例号</td><td>processInstanceID</td><td>启动时间</td><td>启动人员</td><td>流程状态</td><td>机关</td><td>流程事项</td><td>任务名称</td><td>任务委托时间</td><td>workitemID</td><td>委托机关</td><td>委托岗位</td><td>操作</td>
+     	</tr>
+     </table>
+     <hr/>
+     
+     <Hr/>
+    	在办任务
+     <br/>
+      <table border=1 width="100%" id="zbrw">
+     	<tr>
+     		<td>流程名称</td><td>流程ID</td><td>启动时间</td><td>流程限期时间</td><td>启动人员</td><td>流程状态</td><td>任务名称</td><td>任务启动时间</td><td>任务限期时间</td><td>任务ID</td><td>任务Key</td><td>任务签收时间</td><td>推送方式</td><td>操作</td>
+     	</tr>
+     </table>
+      <hr/>
+      
+      <hr/>
+    	已办任务
+     <br/>
+      <table border=1 width="100%"  id="ybrw">
+     	<tr>
+     		<td>流程名称</td><td>流程ID</td><td>启动时间</td><td>启动时间</td><td>启动人员</td><td>流程状态</td><td>流程固定参数</td><td>流程扩展参数</td><td>任务名称</td><td>任务启动时间</td><td>任务ID</td><td>任务Key</td><td>任务签收时间</td><td>人员扩展属性</td><td>操作</td>
+     		<td>流程完成日期</td><td>任务完成日期</td>
+     	</tr>
+     </table>
+     
+  </body>
+</html>

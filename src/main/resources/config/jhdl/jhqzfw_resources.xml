@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <resource id="GOV.CSSNJ.GT3.OSB.SJ" des="省局金三osb调用接口" pkg="com.cssnj.biz.sjjh.mb.WSTaxGt3OsbMb">
+        <isActivation>true</isActivation><!-- 是否有效 -->
+        <timeout>defalut</timeout><!-- 事务超时控制 defalut：5分钟  long：20分钟 -->
+        <allowReqIp></allowReqIp><!-- 允许请求该资源的IP -->
+        <allowResIp></allowResIp><!-- 允许该资源请求的IP -->
+        <templeteDataSources>WEBSERVICE_TAX_GT3_OSB</templeteDataSources><!-- 需要用到的数据源 -->
+        <reqTemplete>com.cssnj.biz.sjjh.mb.WSTaxGt3OsbMb_sendWebservice</reqTemplete><!-- 接收数据源后可以公共处理的模板接口 -->
+        <processTemplete>com.cssnj.biz.sjjh.mb.WSTaxGt3OsbMb_processingData</processTemplete><!-- 对已经接收并且获取了数据后需要对数据进行进一步处理如清洗、转换、调用数据治理公共处理的模板接口 -->
+        <resTemplete>com.cssnj.biz.sjjh.mb.WSTaxGt3OsbMb_returnData</resTemplete><!-- 对已经处理好的数据需要包装返回结果的公共处理模板接口 -->
+        <isScheduler>false</isScheduler><!-- 资源是否定时调用-->
+        <schedulerCommont>定时每10分钟执行一次</schedulerCommont><!-- 定时调度的描述-->
+        <isDataConfirmation>false</isDataConfirmation><!-- 是否需要数据确认 -->
+        <dataConfirmationTld></dataConfirmationTld><!-- 启动或触发数据确认调用接口 -->
+        <isDataCompleteTips>false</isDataCompleteTips><!-- 数据交换完成是否需要通知 -->
+        <isDataCompleteTipsTld></isDataCompleteTipsTld><!-- 数据交换完成是否需要通知的实现接口 -->
+        <dataQualityProcedure></dataQualityProcedure><!-- 数据质量管理的处理的存储过程 -->
+        <isStartWf>false</isStartWf><!-- 是否启动流程 -->
+        <isRollback>true</isRollback><!-- 是否保持事务一致性，发生异常回滚操作 -->
+        <wfProcessDefinitionID></wfProcessDefinitionID><!-- 流程定义ID -->
+        <localRestFulApiPath></localRestFulApiPath><!-- 针对本地模式为空则在本服务内部调用，否则调用对应其他资源restful地址 -->
+    </resource>
+    <resource id="GOV.CSSNJ.TEST.MB.WEBS" des="接口资源请求模板" pkg="com.cssnj.test.mb.WebServicesTaxMb">
+        <isActivation>true</isActivation><!-- 是否有效 -->
+        <timeout>defalut</timeout><!-- 事务超时控制 defalut：5分钟  long：20分钟 -->
+        <allowReqIp></allowReqIp><!-- 允许请求该资源的IP -->
+        <allowResIp></allowResIp><!-- 允许该资源请求的IP -->
+        <templeteDataSources>WEBSERVICE_JSSW_TEST01,DB_JSSW_TEST02</templeteDataSources><!-- 需要用到的数据源 -->
+        <reqTemplete>com.cssnj.test.mb.WebServicesTaxMb_sendWebservice</reqTemplete><!-- 接收数据源后可以公共处理的模板接口 -->
+        <processTemplete>com.cssnj.test.mb.WebServicesTaxMb_processingData</processTemplete><!-- 对已经接收并且获取了数据后需要对数据进行进一步处理如清洗、转换、调用数据治理公共处理的模板接口 -->
+        <resTemplete>com.cssnj.test.mb.WebServicesTaxMb_returnData</resTemplete><!-- 对已经处理好的数据需要包装返回结果的公共处理模板接口 -->
+        <isScheduler>false</isScheduler><!-- 资源是否定时调用-->
+        <schedulerCommont>定时每10分钟执行一次</schedulerCommont><!-- 定时调度的描述-->
+        <isDataConfirmation>false</isDataConfirmation><!-- 是否需要数据确认 -->
+        <dataConfirmationTld></dataConfirmationTld><!-- 启动或触发数据确认调用接口 -->
+        <isDataCompleteTips>false</isDataCompleteTips><!-- 数据交换完成是否需要通知 -->
+        <isDataCompleteTipsTld></isDataCompleteTipsTld><!-- 数据交换完成是否需要通知的实现接口 -->
+        <dataQualityProcedure></dataQualityProcedure><!-- 数据质量管理的处理的存储过程 -->
+        <isStartWf>false</isStartWf><!-- 是否启动流程 -->
+        <isRollback>true</isRollback><!-- 是否保持事务一致性，发生异常回滚操作 -->
+        <wfProcessDefinitionID></wfProcessDefinitionID><!-- 流程定义ID -->
+        <localRestFulApiPath></localRestFulApiPath><!-- 针对本地模式为空则在本服务内部调用，否则调用对应其他资源restful地址 -->
+    </resource>
+    <resource id="GOV.CSSNJ.TEST.MB.FILE" des="文件资源请求模板" pkg="com.cssnj.test.mb.ExcelTaxMb">
+        <isActivation>true</isActivation><!-- 是否有效 -->
+        <timeout>defalut</timeout><!-- 事务超时控制 defalut：5分钟  long：20分钟 -->
+        <allowReqIp></allowReqIp><!-- 允许请求该资源的IP -->
+        <allowResIp></allowResIp><!-- 允许该资源请求的IP -->
+        <templeteDataSources>FTP_JSSW_TEST01,WEBSERVICE_JSSW_TEST01,DB_JSSW_TEST02,DB_JSSW_TEST03</templeteDataSources><!-- 需要用到的数据源 -->
+        <mbid>001</mbid><!-- 需要用到的解析模板id-->
+        <reqTemplete>com.cssnj.test.mb.ExcelTaxMb_loadDataByExcel</reqTemplete><!-- 接收数据源后可以公共处理的模板接口 -->
+        <processTemplete>com.cssnj.test.mb.ExcelTaxMb_processingData</processTemplete><!-- 对已经接收并且获取了数据后需要对数据进行进一步处理如清洗、转换、调用数据治理公共处理的模板接口 -->
+        <resTemplete>com.cssnj.test.mb.ExcelTaxMb_returnData</resTemplete><!-- 对已经处理好的数据需要包装返回结果的公共处理模板接口 -->
+        <isScheduler>false</isScheduler><!-- 资源是否定时调用-->
+        <schedulerCommont>定时每10分钟执行一次</schedulerCommont><!-- 定时调度的描述-->
+        <isDataConfirmation>false</isDataConfirmation><!-- 是否需要数据确认 -->
+        <dataConfirmationTld></dataConfirmationTld><!-- 启动或触发数据确认调用接口 -->
+        <isDataCompleteTips>false</isDataCompleteTips><!-- 数据交换完成是否需要通知 -->
+        <isDataCompleteTipsTld></isDataCompleteTipsTld><!-- 数据交换完成是否需要通知的实现接口 -->
+        <dataQualityProcedure></dataQualityProcedure><!-- 数据质量管理的处理的存储过程 -->
+        <isStartWf>false</isStartWf><!-- 是否启动流程 -->
+        <isRollback>true</isRollback><!-- 是否保持事务一致性，发生异常回滚操作 -->
+        <wfProcessDefinitionID></wfProcessDefinitionID><!-- 流程定义ID -->
+        <localRestFulApiPath></localRestFulApiPath><!-- 针对本地模式为空则在本服务内部调用，否则调用对应其他资源restful地址 -->
+    </resource>
+    <resource id="GOV.CSSNJ.MB.GX.FILE.EXCEL" des="广西excel文件资源转换统一模板" pkg="com.cssnj.biz.sjjh.mb.ExcelGxTaxMb">
+        <isActivation>true</isActivation><!-- 是否有效 -->
+        <timeout>defalut</timeout><!-- 事务超时控制 defalut：5分钟  long：20分钟 -->
+        <allowReqIp></allowReqIp><!-- 允许请求该资源的IP -->
+        <allowResIp></allowResIp><!-- 允许该资源请求的IP -->
+        <templeteDataSources>FTP_GXSW_SJJH_EXCEL,DB_GXSW_SJJH_ORACLE</templeteDataSources><!-- 需要用到的数据源 -->
+        <mbid></mbid><!-- 需要用到的解析模板id-->
+        <reqTemplete>com.cwks.biz.sjjh.mb.ExcelTaxDataLoadMb_loadDataByExcel</reqTemplete><!-- 接收数据源后可以公共处理的模板接口 -->
+        <processTemplete>com.cwks.biz.sjjh.mb.ExcelTaxDataLoadMb_processingData</processTemplete><!-- 对已经接收并且获取了数据后需要对数据进行进一步处理如清洗、转换、调用数据治理公共处理的模板接口 -->
+        <resTemplete>com.cwks.biz.sjjh.mb.ExcelTaxDataLoadMb_returnData</resTemplete><!-- 对已经处理好的数据需要包装返回结果的公共处理模板接口 -->
+        <isScheduler>false</isScheduler><!-- 资源是否定时调用-->
+        <schedulerCommont>定时每10分钟执行一次</schedulerCommont><!-- 定时调度的描述-->
+        <isDataConfirmation>false</isDataConfirmation><!-- 是否需要数据确认 -->
+        <dataConfirmationTld></dataConfirmationTld><!-- 启动或触发数据确认调用接口 -->
+        <isDataCompleteTips>false</isDataCompleteTips><!-- 数据交换完成是否需要通知 -->
+        <isDataCompleteTipsTld></isDataCompleteTipsTld><!-- 数据交换完成是否需要通知的实现接口 -->
+        <dataQualityProcedure></dataQualityProcedure><!-- 数据质量管理的处理的存储过程 -->
+        <isStartWf>false</isStartWf><!-- 是否启动流程 -->
+        <isRollback>true</isRollback><!-- 是否保持事务一致性，发生异常回滚操作 -->
+        <wfProcessDefinitionID></wfProcessDefinitionID><!-- 流程定义ID -->
+        <localRestFulApiPath></localRestFulApiPath><!-- 针对本地模式为空则在本服务内部调用，否则调用对应其他资源restful地址 -->
+    </resource>
+</resources>

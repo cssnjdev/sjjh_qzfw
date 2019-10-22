@@ -1,0 +1,23 @@
+[{
+"menuId": 2,
+"parentId": 0,
+"name": "系统管理",
+"url": null,
+"perms": null,
+"type": 0,
+"icon": "system",
+"orderNum": 0,
+"open": null,
+"list": [{
+	"menuId": 21,
+	"parentId": 2,
+	"name": "用户维护",
+	"url": "/tyGoPage/html?model=demo&p=lay_sjjh_mbpz",
+	"perms": null,
+	"type": 1,
+	"icon": "admin",
+	"orderNum": 1,
+	"open": null,
+	"list":null
+}]
+}]

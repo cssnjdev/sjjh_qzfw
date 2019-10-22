@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <ds id="FTP_JSSW_TEST01" type="FTP" des="江苏税务局FTP服务器">
+        <url>127.0.0.1:21</url>
+        <username>jewel_sky@live.com</username>
+        <password>krossegg3712867</password>
+        <conntype>actived</conntype><!-- 连接模式:主动还是被动链接模式 -->
+        <path></path>
+        <timeout>36000</timeout>
+    </ds>
+    <ds id="FASTDFS_JSSW_TEST01" type="FASTDFS" des="江苏税务局FASTDFS服务器">
+        <url>10.64.2.171:22122,10.64.2.172:22122</url>
+        <username></username>
+        <password></password>
+        <conntype></conntype>
+        <path></path>
+        <timeout>36000</timeout>
+    </ds>
+    <ds id="DB_JSSW_TEST01" type="DB" des="江苏税务局DB服务器1">
+        <driverClassName>com.mysql.jdbc.Driver</driverClassName>
+        <url>jdbc:mysql://192.168.0.129:3306/jewelDB?characterEncoding=UTF-8</url>
+        <username>root</username>
+        <password>asd</password>
+        <initialSize>1</initialSize>
+        <minIdle>1</minIdle>
+        <maxActive>50</maxActive>
+        <maxWait>60000</maxWait>
+        <timeBetweenEvictionRunsMillis>60000</timeBetweenEvictionRunsMillis>
+        <minEvictableIdleTimeMillis>300000</minEvictableIdleTimeMillis>
+        <validationQuery>select 1 from dual </validationQuery>
+        <testWhileIdle>false</testWhileIdle>
+        <testOnBorrow>false</testOnBorrow>
+        <validationQuery>false</validationQuery>
+        <testOnBorrow>false</testOnBorrow>
+        <testOnReturn>false</testOnReturn>
+        <poolPreparedStatements>true</poolPreparedStatements>
+        <maxPoolPreparedStatementPerConnectionSize>25</maxPoolPreparedStatementPerConnectionSize>
+        <filters>stat</filters>
+        <!-- 超过时间限制是否回收 -->
+        <removeAbandoned>true</removeAbandoned>
+        <!-- 超时时间；单位为秒。1200秒=20分钟 -->
+        <removeAbandonedTimeout>1200</removeAbandonedTimeout>
+        <!-- 关闭abanded连接时输出错误日志 -->
+        <logAbandoned>true</logAbandoned>
+    </ds>
+    <ds id="DB_JSSW_TEST02" type="DB" des="江苏税务局DB服务器2">
+        <driverClassName>oracle.jdbc.OracleDriver</driverClassName>
+        <url>jdbc:oracle:thin:@superhero.goho.co:51521:orcl</url>
+        <username>DB_SJJH_GLZX</username>
+        <password>DB_SJJH_GLZX</password>
+        <initialSize>1</initialSize>
+        <minIdle>1</minIdle>
+        <maxActive>50</maxActive>
+        <maxWait>60000</maxWait>
+        <timeBetweenEvictionRunsMillis>60000</timeBetweenEvictionRunsMillis>
+        <minEvictableIdleTimeMillis>300000</minEvictableIdleTimeMillis>
+        <validationQuery>select 1 from dual </validationQuery>
+        <testWhileIdle>false</testWhileIdle>
+        <testOnBorrow>false</testOnBorrow>
+        <validationQuery>false</validationQuery>
+        <testOnBorrow>false</testOnBorrow>
+        <testOnReturn>false</testOnReturn>
+        <poolPreparedStatements>true</poolPreparedStatements>
+        <maxPoolPreparedStatementPerConnectionSize>25</maxPoolPreparedStatementPerConnectionSize>
+        <filters>stat</filters>
+        <!-- 超过时间限制是否回收 -->
+        <removeAbandoned>true</removeAbandoned>
+        <!-- 超时时间；单位为秒。1200秒=20分钟 -->
+        <removeAbandonedTimeout>1200</removeAbandonedTimeout>
+        <!-- 关闭abanded连接时输出错误日志 -->
+        <logAbandoned>true</logAbandoned>
+    </ds>
+    <ds id="DB_JSSW_TEST03" type="DB" des="江苏税务局DB服务器3">
+        <driverClassName>oracle.jdbc.OracleDriver</driverClassName>
+        <url>jdbc:oracle:thin:@superhero.goho.co:51521:orcl</url>
+        <username>gzl_cssnj</username>
+        <password>gzl_cssnj</password>
+        <initialSize>1</initialSize>
+        <minIdle>1</minIdle>
+        <maxActive>50</maxActive>
+        <maxWait>60000</maxWait>
+        <timeBetweenEvictionRunsMillis>60000</timeBetweenEvictionRunsMillis>
+        <minEvictableIdleTimeMillis>300000</minEvictableIdleTimeMillis>
+        <validationQuery>select 1 from dual </validationQuery>
+        <testWhileIdle>false</testWhileIdle>
+        <testOnBorrow>false</testOnBorrow>
+        <testOnBorrow>false</testOnBorrow>
+        <testOnReturn>false</testOnReturn>
+        <poolPreparedStatements>true</poolPreparedStatements>
+        <maxPoolPreparedStatementPerConnectionSize>25</maxPoolPreparedStatementPerConnectionSize>
+        <filters>stat</filters>
+        <!-- 超过时间限制是否回收 -->
+        <removeAbandoned>true</removeAbandoned>
+        <!-- 超时时间；单位为秒。1200秒=20分钟 -->
+        <removeAbandonedTimeout>1200</removeAbandonedTimeout>
+        <!-- 关闭abanded连接时输出错误日志 -->
+        <logAbandoned>true</logAbandoned>
+    </ds>
+    <ds id="DB_JSSW_TEST04" type="DB" des="江苏税务局DB服务器4本地">
+        <driverClassName>oracle.jdbc.OracleDriver</driverClassName>
+        <url>jdbc:oracle:thin:@192.168.0.129:1521:xe</url>
+        <username>gzl_cssnj</username>
+        <password>gzl_cssnj</password>
+        <initialSize>1</initialSize>
+        <minIdle>1</minIdle>
+        <maxActive>50</maxActive>
+        <maxWait>60000</maxWait>
+        <timeBetweenEvictionRunsMillis>60000</timeBetweenEvictionRunsMillis>
+        <minEvictableIdleTimeMillis>300000</minEvictableIdleTimeMillis>
+        <validationQuery>select 1 from dual </validationQuery>
+        <testWhileIdle>false</testWhileIdle>
+        <testOnBorrow>false</testOnBorrow>
+        <validationQuery>false</validationQuery>
+        <testOnBorrow>false</testOnBorrow>
+        <testOnReturn>false</testOnReturn>
+        <poolPreparedStatements>true</poolPreparedStatements>
+        <maxPoolPreparedStatementPerConnectionSize>25</maxPoolPreparedStatementPerConnectionSize>
+        <filters>stat</filters>
+        <!-- 超过时间限制是否回收 -->
+        <removeAbandoned>true</removeAbandoned>
+        <!-- 超时时间；单位为秒。1200秒=20分钟 -->
+        <removeAbandonedTimeout>1200</removeAbandonedTimeout>
+        <!-- 关闭abanded连接时输出错误日志 -->
+        <logAbandoned>true</logAbandoned>
+    </ds>
+    <ds id="DB_JSSW_TEST05" type="DB" des="江苏税务局DB服务器JNDI连接4">
+        <driverClassName>weblogic.jndi.T3InitialContextFactory</driverClassName>
+        <url>t3://localhost:7001</url>
+        <username></username>
+        <password></password>
+        <jndiName>ds_wf</jndiName>
+    </ds>
+    <ds id="WEBSERVICE_TAX_GT3_OSB" type="WEBSERVICE" des="金三核心征管OSB接口服务">
+        <driverClassName>com.cssnj.biz.sjjh.util.HttpClientUtil</driverClassName>
+        <ClassMethodName>getInstance</ClassMethodName>
+        <url>http://141.16.52.116:8201/Gt3AipWebService?wsdl</url>
+        <username></username>
+        <password></password>
+        <soapHead>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:spec="http://www.chinatax.gov.cn/spec/"&gt;&lt;soapenv:Header/&gt;&lt;soapenv:Body&gt;&lt;spec:service&gt;&lt;![CDATA[</soapHead>
+        <soapEnd>]]&gt;&lt;/spec:service&gt;&lt;/soapenv:Body&gt;&lt;/soapenv:Envelope&gt;</soapEnd>
+        <soapFilterHead>&lt;ns:return&gt;</soapFilterHead>
+        <soapFilterEnd>&lt;/ns:return&gt;</soapFilterEnd>
+        <timeout>36000</timeout>
+    </ds>
+    <ds id="WEBSERVICE_JSSW_TEST01" type="WEBSERVICE" des="江苏税务局测试WEBSERVICE服务1">
+        <driverClassName>com.cssnj.biz.sjjh.util.HttpClientUtil</driverClassName>
+        <ClassMethodName>getInstance</ClassMethodName>
+        <url>http://127.0.0.1:8080/service/cssnjWebService?wsdl</url>
+        <username></username>
+        <password></password>
+        <soapHead>&lt;?xml version='1.0' encoding='UTF-8'?&gt;&lt;soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soa="http://www.cssnj.com.cn/soa_service/"&gt;&lt;soapenv:Header/&gt;&lt;soapenv:Body&gt;&lt;soa:invokeTask&gt;&lt;!--Optional:--&gt;&lt;arg0&gt;&lt;![CDATA[</soapHead>
+        <soapEnd>]]&gt;&lt;/arg0&gt;&lt;/soa:invokeTask&gt;&lt;/soapenv:Body&gt;&lt;/soapenv:Envelope&gt;</soapEnd>
+        <soapFilterHead>&lt;return&gt;</soapFilterHead>
+        <soapFilterEnd>&lt;/return&gt;</soapFilterEnd>
+        <timeout>36000</timeout>
+    </ds>
+    <ds id="WEBSERVICE_JSSW_gongan_TEST01" type="WEBSERVICE" des="江苏税务局测试WEBSERVICE公安服务1">
+        <driverClassName>com.cssnj.jhdl.biz.biz001.GaWebserviceUtil</driverClassName>
+        <ClassMethodName>init</ClassMethodName>
+        <url></url>
+        <username></username>
+        <password></password>
+        <timeout>36000</timeout>
+    </ds>
+    <ds id="DB_GXSW_SJJH_ORACLE" type="DB" des="广西税务局数据交换DB服务器">
+        <driverClassName>oracle.jdbc.OracleDriver</driverClassName>
+        <url>jdbc:oracle:thin:@221.226.106.171:51521:orcl</url>
+        <username>DB_SJJH_GLZX</username>
+        <password>DB_SJJH_GLZX</password>
+        <initialSize>1</initialSize>
+        <minIdle>1</minIdle>
+        <maxActive>50</maxActive>
+        <maxWait>60000</maxWait>
+        <timeBetweenEvictionRunsMillis>60000</timeBetweenEvictionRunsMillis>
+        <minEvictableIdleTimeMillis>300000</minEvictableIdleTimeMillis>
+        <validationQuery>SELECT 'x' from dual</validationQuery>
+        <testWhileIdle>false</testWhileIdle>
+        <testOnBorrow>false</testOnBorrow>
+        <validationQuery>false</validationQuery>
+        <testOnBorrow>false</testOnBorrow>
+        <testOnReturn>false</testOnReturn>
+        <poolPreparedStatements>true</poolPreparedStatements>
+        <maxPoolPreparedStatementPerConnectionSize>25</maxPoolPreparedStatementPerConnectionSize>
+        <filters>stat</filters>
+        <!-- 超过时间限制是否回收 -->
+        <removeAbandoned>true</removeAbandoned>
+        <!-- 超时时间；单位为秒。1200秒=20分钟 -->
+        <removeAbandonedTimeout>1200</removeAbandonedTimeout>
+        <!-- 关闭abanded连接时输出错误日志 -->
+        <logAbandoned>true</logAbandoned>
+    </ds>
+    <ds id="FTP_GXSW_SJJH_EXCEL" type="FTP" des="广西税务局数据交换FTP服务器">
+        <url>127.0.0.1:21</url>
+<!--        <url>221.226.106.171</url>-->
+        <username>ll</username>
+        <password>ll</password>
+        <conntype>actived</conntype><!-- 连接模式:主动还是被动链接模式 -->
+        <path></path>
+        <timeout>36000</timeout>
+    </ds>
+</resources>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clients>
+    <client id="COM.CSSNJ.TAX.GX.QZFW.001" des="南京中软税务中心前置服务接入点测试用户01">
+        <isActivation>true</isActivation><!-- 是否有效 -->
+        <timeout>defalut</timeout><!-- 事务超时控制 defalut：5分钟  long：20分钟 -->
+        <allowReqIp></allowReqIp><!-- 允许请求该资源的IP -->
+        <allowResIp></allowResIp><!-- 允许该资源请求的IP -->
+        <reqResources>
+            <reqResource>
+                <reqResourceId>GOV.CSSNJ.TEST.MB.WEBS</reqResourceId><!-- 请求的资源ID -->
+                <reqModel>asynchronous</reqModel><!-- 同步：synchronization 异步：asynchronous -->
+                <resResourceId>GOV.CSSNJ.MB.GX.FILE.EXCEL</resResourceId><!-- reqModel为异步下配置，异步请求后响应的的资源ID -->
+                <mqPattern>remoting.queue.restfulKey</mqPattern>
+                <callbackRestFulApi>http://127.0.0.1:8080/jhfw-api/jhdl-wbfw.action</callbackRestFulApi><!--回调restfulURL地址-->
+            </reqResource>
+            <reqResource>
+                <reqResourceId>GOV.CSSNJ.TEST.MB.FILE</reqResourceId><!-- 请求的资源ID -->
+                <reqModel>asynchronous</reqModel><!-- 同步：synchronization 异步：asynchronous -->
+                <resResourceId>GOV.CSSNJ.MB.GX.FILE.EXCEL</resResourceId><!-- reqModel为异步下配置，异步请求后响应的的资源ID -->
+                <mqPattern>remoting.queue.restfulKey</mqPattern>
+                <callbackRestFulApi>http://127.0.0.1:8080/jhfw-api/jhdl-wbfw.action</callbackRestFulApi><!--回调restfulURL地址-->
+            </reqResource>
+            <reqResource>
+                <reqResourceId>GOV.CSSNJ.MB.GX.FILE.EXCEL</reqResourceId><!-- 请求的资源ID -->
+                <reqModel>synchronization</reqModel><!-- 同步：synchronization 异步：asynchronous -->
+                <resResourceId></resResourceId><!-- reqModel为异步下配置，异步请求后响应的的资源ID -->
+                <mqPattern></mqPattern>
+                <callbackRestFulApi>http://127.0.0.1:8080/jhfw-api/jhdl-wbfw.action</callbackRestFulApi><!--回调restfulURL地址-->
+            </reqResource>
+        </reqResources>
+    </client>
+    <client id="COM.CSSNJ.TAX.GX.QZFW.002" des="南京中软税务中心前置服务接入点测试用户02">
+        <isActivation>true</isActivation><!-- 是否有效 -->
+        <timeout>defalut</timeout><!-- 事务超时控制 defalut：5分钟  long：20分钟 -->
+        <allowReqIp></allowReqIp><!-- 允许请求该资源的IP -->
+        <allowResIp></allowResIp><!-- 允许该资源请求的IP -->
+        <reqResources>
+            <reqResource>
+                <reqResourceId>GOV.CSSNJ.TEST.MB.WEBS</reqResourceId><!-- 请求的资源ID -->
+                <reqModel>synchronization</reqModel><!-- 同步：synchronization 异步：asynchronous -->
+                <resResourceId></resResourceId><!-- reqModel为异步下配置，异步请求后响应的的资源ID -->
+                <mqPattern></mqPattern>
+                <callbackRestFulApi>http://127.0.0.1:8080/jhfw-api/jhdl-wbfw.action</callbackRestFulApi><!--回调restfulURL地址-->
+            </reqResource>
+            <reqResource>
+                <reqResourceId>GOV.CSSNJ.TEST.MB.FILE</reqResourceId><!-- 请求的资源ID -->
+                <reqModel>asynchronous</reqModel><!-- 同步：synchronization 异步：asynchronous -->
+                <resResourceId>GOV.CSSNJ.MB.GX.FILE.EXCEL</resResourceId><!-- reqModel为异步下配置，异步请求后响应的的资源ID -->
+                <mqPattern>remoting.queue.restfulKey</mqPattern>
+                <callbackRestFulApi>http://127.0.0.1:8080/jhfw-api/jhdl-wbfw.action</callbackRestFulApi><!--回调restfulURL地址-->
+            </reqResource>
+        </reqResources>
+    </client>
+</clients>

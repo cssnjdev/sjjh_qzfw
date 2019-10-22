@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sqlfile>
+   <sql id="SQL_SJJH_QUERY_MBBYPARAMS" describ="查询模板主表数据" isLoad="true">
+		SELECT t.mb_id mbid,t.mb_mc mbmc,t.mb_ms mbms,t.yx_bj yxbj,to_char(t.lrrq,'yyyy-MM-dd hh24:mi:ss') lrrq,t.mb_lx mblx FROM DB_SJJH_GLZX.T_JHFW_MB_FILE t
+		WHERE (t.mb_id=? or 1=?) AND (t.mb_mc like '%'||?||'%' or 1=?) AND (t.mb_ms like '%'||?||'%' or 1=?) AND (to_char(t.lrrq,'yyyy-MM-dd')=? or 1=?)
+	</sql>	
+   <sql id="SQL_SJJH_QUERY_SHEETBYMBID" describ="查询模板sheet子表数据" isLoad="true">
+		SELECT t.mb_id mbid,t.table_name tablename,t.sheet_index,t.qshs,t.qsls,t.table_ms,t.table_schema FROM DB_SJJH_GLZX.T_JHFW_MB_FILE_SHEET t where t.mb_id=?
+	</sql>	
+   <sql id="SQL_SJJH_QUERY_SHEETCOLBYMBIDANDINDEX" describ="查询模板sheet_col子表数据" isLoad="true">
+		SELECT t.mb_id mbid,t.sheet_index,t.table_name,t.excel_colmc,t.zd_mc,t.db_colmc,t.zf_bj,t.db_colmc_type,t.db_colmc_len FROM DB_SJJH_GLZX.T_JHFW_MB_FILE_COLMX t where t.mb_id=? and t.sheet_index=?
+	</sql>	
+</sqlfile>

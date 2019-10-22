@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rules>
+    <!-- 如果配置isDbRule true 所有的配置规则都走数据配置规则来实现，包括webservice相关的日志存储 -->
+    <rule tran_id="CSSNJ.WS.DEFAULT" describ="外部应用访问服务的限制规则全局一级规则_默认规则不可以删除" isLoad="true" isDbRule="false">
+        <allow_appid></allow_appid>
+        <allow_ip></allow_ip>
+        <allow_tld></allow_tld>
+        <!-- longtx notx tx -->
+        <allow_tld_tx></allow_tld_tx>
+        <allow_timeout></allow_timeout>
+    </rule>
+    <rule tran_id="CSSNJ.WS.CORE.MQ" describ="MQ统一请求服务webservice入口的限制规则" isLoad="true" isDbRule="false">
+        <allow_appid>CSSNJ.WS.CORE.MQ</allow_appid>
+        <allow_ip></allow_ip>
+        <allow_tld>MqBizService_doBiz</allow_tld>
+        <allow_tld_tx></allow_tld_tx>
+        <allow_timeout></allow_timeout>
+    </rule>
+    <!-- PF -->
+    <rule tran_id="CSSNJ.WS.PFTEST" describ="给PF测试" isLoad="true" isDbRule="false">
+        <allow_appid>CSSNJ.WS.PFTEST</allow_appid>
+        <allow_ip></allow_ip>
+        <!-- testService_init;testService_query -->
+        <allow_tld>pfGetService_init</allow_tld>
+        <allow_tld_tx></allow_tld_tx>
+        <allow_timeout></allow_timeout>
+    </rule>
+    
+    <rule tran_id="CSSNJ.WS.TEST1" describ="测试外部应用testapp访问服务的限制规则" isLoad="true" isDbRule="false">
+        <allow_appid>CSSNJ.WS.TEST1</allow_appid>
+        <allow_ip></allow_ip>
+        <!-- testService_init;testService_query -->
+        <allow_tld>testService_testwebservice,testService_jsonNodeToBpmnModel,testService_start,testService_testXML</allow_tld>
+        <allow_tld_tx></allow_tld_tx>
+        <allow_timeout></allow_timeout>
+    </rule>
+    <rule tran_id="CSSNJ.WS.TEST2" describ="测试外部应用testapp访问服务的限制规则" isLoad="true" isDbRule="false">
+        <allow_appid>CSSNJ.WS.TEST2</allow_appid>
+        <allow_ip></allow_ip>
+        <!-- testService_init;testService_query -->
+        <allow_tld>testSecretService_testSecretM2BwWebService,testSecretService_testSecretM4FileBwWebService,testSecretService_testSecretDESBwWebService,testSecretService_testSecretDESFileBwWebService</allow_tld>
+        <allow_tld_tx></allow_tld_tx>
+        <allow_timeout></allow_timeout>
+    </rule>
+    <rule tran_id="CSSNJ.XTGL.CACHE.SYNCHRONIZEALL" describ="同步服务器所有缓存" isLoad="true" isDbRule="false">
+        <allow_appid>CSSNJ.XTGL.CACHE.SYNCHRONIZEALL</allow_appid>
+        <allow_ip></allow_ip>
+        <allow_tld>tXtFwqpzService_runSynchronize</allow_tld>
+        <allow_tld_tx></allow_tld_tx>
+        <allow_timeout></allow_timeout>
+    </rule>
+    <rule tran_id="CSSNJ.XTGL.CACHE.SYNCHRONIZETABLES" describ="同步服务器指定缓存" isLoad="true" isDbRule="false">
+        <allow_appid>CSSNJ.XTGL.CACHE.SYNCHRONIZETABLES</allow_appid>
+        <allow_ip></allow_ip>
+        <allow_tld>CacheService_synchronizeCacheTable</allow_tld>
+        <allow_tld_tx></allow_tld_tx>
+        <allow_timeout></allow_timeout>
+    </rule>
+    <rule tran_id="CSSNJ.CORE.XTGL.MONITOR" describ="监控服务器性能相关指标" isLoad="true" isDbRule="false">
+        <allow_appid>CSSNJ.CORE.XTGL.MONITOR</allow_appid>
+        <allow_ip></allow_ip>
+        <allow_tld>monitorService_getServerMonitorInfo,monitorService_getAllServerInfo,monitorService_getAllAppInfo,monitorService_getAppMonitorInfo,monitorService_getDBMonitorInfo,monitorService_getAllAppLogsInfo,monitorService_getAppLogsMonitorInfo</allow_tld>
+        <allow_tld_tx></allow_tld_tx>
+        <allow_timeout></allow_timeout>
+    </rule>
+    <rule tran_id="GXLT.ZJQDTOZJHD.WWXT.WWSC" describ="BHO后端服务 " isLoad="true" isDbRule="false">
+        <allow_appid>GXLT.ZJQDTOZJHD.WWXT.WWSC</allow_appid>
+        <allow_ip></allow_ip>
+        <allow_tld>bhoHdWebService_wwsc,bhoHdWebService_jgpg,bhoHdWebService_webserviceTest</allow_tld>
+        <allow_tld_tx></allow_tld_tx>
+        <allow_timeout></allow_timeout>
+    </rule>
+    <rule tran_id="CSSNJ.SJJH.QZFW.TEST.WS" describ="数据交换平台前置接口统一测试入口 " isLoad="true" isDbRule="false">
+        <allow_appid>CSSNJ.SJJH.QZFW.TEST.WS</allow_appid>
+        <allow_ip></allow_ip>
+        <allow_tld>jhQzTldTestService_mytest</allow_tld>
+        <allow_tld_tx></allow_tld_tx>
+        <allow_timeout></allow_timeout>
+    </rule>
+</rules>

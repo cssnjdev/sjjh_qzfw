@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+<head>
+    <title>任务委托</title>
+    <meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="../../public/css/insdep_theme_default.css">
+<link rel="stylesheet" type="text/css" href="../../public/css/easyui.css">
+<link rel="stylesheet" type="text/css" href="../../public/css/icon.css">
+<link rel="stylesheet" type="text/css" href="../../public/css/insdep_theme_default.css">
+<script type="text/javascript" src="../../public/js/jquery.min.js"></script>
+<script type="text/javascript" src="../../public/js/jquery.easyui.min.js"></script>
+<script type="text/javascript" src="../../public/js/easyui-lang-zh_CN.js"></script>
+
+</head>
+<body>
+<div class="easyui-layout" fit="true">
+  <div data-options="region:'north',title:'委托信息',split:true" style="height:200px;">
+				<table id="forms" width="100%">
+					<colgroup>
+						<col style="width: 15%" />
+						<col style="width: 35%" />
+						<col style="width: 15%" />
+						<col style="width: 35%" />
+					</colgroup>
+					<tr>
+						<th>
+							<label>
+								委托时间起：
+							</label>
+						</th>
+						<td>
+							<input class="easyui-datetimebox" type="text" id="wtkssj" name="wtkssj" style="width: 100%"/>
+						</td>
+						<th>
+							<label>
+								委托时间止：
+							</label>
+						</th>
+						<td>
+							<input class="easyui-datetimebox" type="text" id="wtjssj" name="wtjssj" style="width: 100%"/>
+						</td>
+					</tr>
+					<tr>
+						<th>
+							<label>
+								委托描述：
+							</label>
+						</th>
+						<td colspan="3">
+							<input class="easyui-textbox" data-options="multiline:true" id="wtms" name="wtms" style="height:100px;width:100%" />
+						</td>
+					</tr>
+				</table>
+			</div>  
+  <div data-options="region:'west',split:false,collapsible:false,title:'委托人员'"
+            style="width:30%;padding:0px;">
+            <ul id="wtryTree" class="easyui-tree"
+                data-options="checkbox:true,
+						animate: true,
+						onContextMenu: function(e,node){
+							e.preventDefault();
+							$(this).tree('select',node.target);
+							$('#mm').menu('show',{
+								left: e.pageX,
+								top: e.pageY
+							});
+						}"></ul>
+    </div>
+    <div data-options="region:'center',split:false,collapsible:false" style="width:70%;padding:0px">
+    	 
+    	  <table id="wtryTb" class="default-table">
+          		    
+		  </table>
+			
+    </div>
+</div>
+<div id="wtryBar" style="padding:5px 10px">
+    <a href="#" class="easyui-linkbutton" data-options="iconCls:'icon-remove',plain:true" onclick="deleteRow();">删除</a>
+    <a href="#" class="easyui-linkbutton" data-options="iconCls:'icon-ok',plain:true" onclick="send();">委托</a>
+</div>
+	<script type="text/javascript" src="../../config/workflow_config.js"></script>
+    <script type="text/javascript" src="rwwt.js"></script>
+</body>
+</html>

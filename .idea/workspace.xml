@@ -1,0 +1,2074 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="tycx:war" />
+      <artifact name="tycx:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/main/java/com/cwks/biz/sjjh/util/HttpClientUtil.java" line="143" mnemonic="4" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="05f7b0dd-6201-4446-a202-ed0c6428f319" name="Default" comment="hur update" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/.idea/httpRequests/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="sjyy_tycx" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="27" column="62" selection-start-line="27" selection-start-column="62" selection-end-line="27" selection-end-column="62" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cwks/biz/sjjh/util/HttpClientUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="151">
+              <caret line="196" column="91" selection-start-line="196" selection-start-column="76" selection-end-line="196" selection-end-column="91" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cwks/bizcore/sjjh/core/ctrl/JhFwWebService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="28" column="3" selection-start-line="28" selection-start-column="3" selection-end-line="28" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cwks/bizcore/config/CxfConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="44" column="36" selection-start-line="44" selection-start-column="36" selection-end-line="44" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1218#1219#0" expanded="true" />
+                <element signature="e#1296#1297#0" expanded="true" />
+                <element signature="e#1347#1348#0" expanded="true" />
+                <element signature="e#1385#1386#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cwks/bizcore/sjjh/core/utils/JhdlBizTemplete.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="544">
+              <caret line="42" column="30" selection-start-line="42" selection-start-column="30" selection-end-line="42" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/config/webservice/webservice.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="21" column="23" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindBugs-IDEA-Workspace">
+    <toolWindowEditorPreview>false</toolWindowEditorPreview>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>jhqzfw_resources.xml</find>
+      <find>FTP_GXSW_SJJH_EXCEL</find>
+      <find>com.cssnj.biz.sjjh.mb.ExcelTaxDataLoadMb</find>
+      <find>jhqzfw_resources_clients.xml</find>
+      <find>datasources.xml</find>
+      <find>开始加载前置服务资源处理规则</find>
+      <find>jhDlTempletEvent</find>
+      <find>广西税务局数据交换FTP服务器</find>
+      <find>druid</find>
+      <find>quartzDataSourceInitializer</find>
+      <find>applicationTaskExecutor</find>
+      <find>tables_hsqldb</find>
+      <find>JobFactory</find>
+      <find>quartz</find>
+      <find>sheet</find>
+      <find>sql-jhdl</find>
+      <find>sql-jhdl.xml</find>
+      <find>SQL_JHDL_DATALOAD_QUERY_MB_SHEET</find>
+      <find>sql-jhd</find>
+      <find>获</find>
+      <find>获取配置表excel文件的字段以及数据库字段信息</find>
+      <find>services</find>
+      <find>@webservice</find>
+      <find>CssnjWebService</find>
+      <find>wsdl</find>
+      <find>endpoint</find>
+      <find></find>
+      <find>webservice.xml</find>
+      <find>jhFwHttpServicePort</find>
+      <find>css</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>import com.cwks.common.core.systemConfig.BizContext;</replace>
+      <replace>import com.cwks.bizcore.sjjh.core.config.log.JhLogWritter;</replace>
+      <replace>import com.cwks.common.util.db.BeanUtils;</replace>
+      <replace>import com.cwks.common.util.db.ext.SqlUtils;</replace>
+      <replace>import com.cwks.common.util.db.oracl.StoredProcManager;</replace>
+      <replace>import com.cwks.common.util.db.oracl.StoredProcParamObj;</replace>
+      <replace>import com.cwks.bizcore.sjjh.core.vo.BeansUtils;</replace>
+      <replace>import com.cwks.common.util.StringUtils;</replace>
+      <replace>import com.cwks.bizcore.sjjh.core.config.log.JhLogEvent;</replace>
+      <replace>import com.cwks.bizcore.sjjh.core.service.JhQzFwService;</replace>
+      <replace>import com.cwks.bizcore.sjjh.core.vo.JhJobTempletEvent;</replace>
+      <replace>import com.cwks.common.service.ServiceDelegate;</replace>
+      <replace>import com.cwks.bizcore.comm.utils.AESCoder;</replace>
+      <replace>import com.cwks.bizcore.sjjh.core.utils.CusAccessObjectUtil;</replace>
+      <replace>import com.cwks.bizcore.sjjh.core.vo.JhDlTempletEvent;</replace>
+      <replace>import com.cwks.biz.sjjh.util.HttpClientUtil;</replace>
+      <replace>import com.cwks.bizcore.comm.utils.UUIDGenerator;</replace>
+      <replace>import com.cwks.bizcore.sjjh.core.vo.ExcelSheetPO;</replace>
+      <replace>import com.cwks.bizcore.sjjh.core.vo.ExcelVersion;</replace>
+      <replace>import com.cwks.bizcore.sjjh.core.utils.ExcelUtil;</replace>
+      <replace>import com.cwks.common.service.impl.BaseService;</replace>
+      <replace>import com.cwks.common.dao.JdbcDao;</replace>
+      <replace>import com.cwks.common.core.ext.memdb.DBConnectionManager;</replace>
+      <replace>import com.cwks.common.core.systemConfig.Manager;</replace>
+      <replace>import com.cwks.bizcore.sjjh.core.utils.RestFulJhQzFwClient;</replace>
+      <replace>import com.cwks.bizcore.sjjh.core.utils.JhdlBizCoreUtil;</replace>
+      <replace>import com.cwks.bizcore.sjjh.core.utils.JhdlBizTemplete;</replace>
+      <replace>import com.cwks.common.api.dto.ext.RequestEvent;</replace>
+      <replace />
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>E:\workspace_cssnj_sjjh\sjyy_tycx\src\main\java\com\cwks\common</dir>
+      <dir>E:\workspace_cssnj_sjjh\sjyy_tycx\src\main\java\com\cwks\common\annotation</dir>
+      <dir>E:\workspace_cssnj_sjjh\sjyy_tycx\src</dir>
+      <dir>E:\workspace_cssnj_sjjh\sjyy_tycx\src\main\java\com\cwks\system</dir>
+      <dir>E:\workspace_mobie\sjyy_tycx\src\main\java\com\cwks\biz\portal</dir>
+      <dir>E:\workspace_mobie\sjyy_tycx\src\main\java</dir>
+      <dir>E:\workspace_mobie\sjyy_tycx\src\main\resources\templates\biz\weather</dir>
+      <dir>E:\workspace_mobie\sjyy_tycx\src\main\resources\templates\biz</dir>
+      <dir>E:\workspace_mobie\sjyy_tycx\src\main\resources\static\js\app\biz</dir>
+      <dir>E:\workspace_mobie\sjyy_tycx\src\main\java\com\cwks\bizcore\portal\msgserver</dir>
+      <dir>E:\workspace_mobie\sjyy_tycx\src\main\java\com\cwks\bizcore\portal\sys\core</dir>
+      <dir>E:\workspace_cssnj_sjyy\sjyy_tycx\src\main\resources\static\pubilc\core\ace-1.4.0</dir>
+      <dir>D:\workspace\sjyy_tycx\src\main\resources\static\img\image\mlzy</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="MERGE" />
+    <option name="PUSH_AUTO_UPDATE" value="true" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--follow-tags" />
+        <option name="title" value="Current Branch" />
+      </GitPushTagMode>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/resources/static/js/login.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/portal_index.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/js/portal_index.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/portal_login.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/js/portal_login.js" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cwks/biz/sjjh/ctrl/FileExConfController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cwks/biz/sjjh/service/FileExConfService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cwks/bizcore/sjjh/core/utils/db/DataSourceUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cwks/bizcore/sjjh/core/utils/JhdlBizCoreUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cwks/bizcore/sjjh/core/vo/BeansUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cwks/bizcore/sjjh/core/ctrl/JhFwController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cwks/bizcore/sjjh/core/job/JhFwQuartzJob.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cwks/biz/sjjh/job/ExcelTaxMbJob.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cwks/biz/sjjh/mb/WSTaxGt3OsbMb.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cwks/biz/sjjh/mb/ExcelTaxDataLoadMb.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cwks/bizcore/sjjh/core/config/BizMemDBManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cwks/bizcore/sjjh/core/ctrl/ExtTestWebService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cwks/bizcore/sjjh/core/service/JhDlBizDealService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cwks/bizcore/sjjh/core/utils/JhdlBizTemplete.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cwks/bizcore/sjjh/core/utils/FastDFSHelper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cwks/bizcore/sjjh/core/utils/FwjrUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cwks/bizcore/sjjh/core/utils/SFTPUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/1.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/_applicationContext_rabbitMQ.properties.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/_applicationContext_rabbitMQ.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cwks/biz/sjjh/mq/listener/ConfirmCallBackListener.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cwks/biz/sjjh/mq/listener/ServerMessageListener.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cwks/bizcore/sjjh/core/service/JhQzFwService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cwks/CssnjWorksApplication.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cwks/common/service/impl/BaseService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cwks/biz/demo/dao/JhfwMbFileColmxMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cwks/biz/demo/dao/JhfwMbFileMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cwks/biz/demo/dao/JhfwMbFileSheetMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cwks/common/config/SwaggerConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cwks/bizcore/sjjh/core/config/JhQzFwContext.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/biz/biz.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cwks/common/core/systemConfig/BizContext.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cwks/bizcore/sjjh/core/vo/JhDlTempletEvent.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cwks/bizcore/sjjh/core/utils/db/DBPoolConnection.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cwks/bizcore/sjjh/core/utils/ExcelUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/config/jhdl/jhqzfw_resources.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/config/jhdl/datasources.xml" />
+        <option value="$PROJECT_DIR$/src/main/test/UploadTestController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cwks/biz/sjjh/mq/service/JhDlQzMqService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cwks/biz/sjjh/util/HttpClientUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cwks/bizcore/config/PdaEndpoint.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cwks/bizcore/sjjh/core/ctrl/JhFwWebService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cwks/bizcore/config/WebServiceConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cwks/bizcore/config/CxfConfig.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JRebelWorkspace">
+    <option name="jrebelEnabledAutocompile" value="true" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../devtools/apache-maven-3.5.3" />
+        <option name="userSettingsFile" value="D:\devtools\apache-maven-3.5.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="cssnj_works" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="cssnj_works" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="1660" />
+    <option name="height" value="940" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Android</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <hideEmptyPackages ProjectPane="false" />
+      <autoscrollToSource ProjectPane="false" />
+      <autoscrollFromSource ProjectPane="true" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="workspace_tykfpt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace_tykfpt" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workspace_tykfpt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace_tykfpt" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workspace_tykfpt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace_tykfpt" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workspace_tykfpt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace_tykfpt" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workspace_tykfpt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace_tykfpt" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workspace_tykfpt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace_tykfpt" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="cwks" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workspace_tykfpt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace_tykfpt" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="cwks" type="462c0819:PsiDirectoryNode" />
+              <item name="biz" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workspace_tykfpt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace_tykfpt" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="cwks" type="462c0819:PsiDirectoryNode" />
+              <item name="biz" type="462c0819:PsiDirectoryNode" />
+              <item name="sjjh" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workspace_tykfpt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace_tykfpt" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="cwks" type="462c0819:PsiDirectoryNode" />
+              <item name="biz" type="462c0819:PsiDirectoryNode" />
+              <item name="sjjh" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workspace_tykfpt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace_tykfpt" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="cwks" type="462c0819:PsiDirectoryNode" />
+              <item name="bizcore" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workspace_tykfpt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace_tykfpt" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="cwks" type="462c0819:PsiDirectoryNode" />
+              <item name="bizcore" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workspace_tykfpt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace_tykfpt" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="cwks" type="462c0819:PsiDirectoryNode" />
+              <item name="bizcore" type="462c0819:PsiDirectoryNode" />
+              <item name="sjjh" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workspace_tykfpt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace_tykfpt" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="cwks" type="462c0819:PsiDirectoryNode" />
+              <item name="bizcore" type="462c0819:PsiDirectoryNode" />
+              <item name="sjjh" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workspace_tykfpt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace_tykfpt" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="cwks" type="462c0819:PsiDirectoryNode" />
+              <item name="bizcore" type="462c0819:PsiDirectoryNode" />
+              <item name="sjjh" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="ctrl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workspace_tykfpt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace_tykfpt" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workspace_tykfpt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace_tykfpt" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="biz" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workspace_tykfpt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace_tykfpt" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workspace_tykfpt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace_tykfpt" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="webservice" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1570943076478" />
+    <property name="editor.config.ad.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/config" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.3761623" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.cwks" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace_tykfpt\src\main\resources\config" />
+      <recent name="D:\workspace_tykfpt\cssnj_works\lib" />
+      <recent name="D:\workspace_tykfpt\cssnj_works\src\main\resources\config\sql" />
+      <recent name="D:\workspace_tykfpt\cssnj_works\src\main\resources\config" />
+      <recent name="D:\workspace_tykfpt\cssnj_works\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="test" />
+      <recent name="com.cwks.bizcore.comm.controller" />
+      <recent name="com.cssnj.core.ext.tycx.tycx002.service" />
+      <recent name="com.cwks.bizcore.utils" />
+      <recent name="com.cwks.bizcore.log" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\workspace\sjyy_tycx\src\main\resources\static\js\tycx" />
+      <recent name="D:\workspace\sjyy_tycx\src\main\resources\templates\biz\bizcore\sjyy\yyfb\html" />
+      <recent name="D:\workspace\sjyy_tycx\src\main\resources\static\js\tycx\js" />
+      <recent name="D:\workspace\sjyy_tycx\src\main\resources\static\js\yyfb" />
+      <recent name="D:\workspace\sjyy_tycx\src\main\resources\templates\biz\bizcore\sjyy\yyfb" />
+    </key>
+  </component>
+  <component name="RestClientSettings">
+    <option name="REQUEST_HISTORY">
+      <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8080/tykf/request" />
+          <option name="urlPath" value="" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+      </list>
+    </option>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+    <option name="contentProportion" value="0.15746753" />
+  </component>
+  <component name="RunManager" selected="Spring Boot.CssnjWorksApplication">
+    <configuration name="HttpClientUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cwks.biz.sjjh.util.HttpClientUtil" />
+      <module name="cssnj_works" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cwks.biz.sjjh.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UploadTestController" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cssnj_works" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="UploadTestController" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UploadTestController.start (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cssnj_works" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="UploadTestController" />
+      <option name="METHOD_NAME" value="start" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UploadTestController.start" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cssnj_works" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="test.UploadTestController" />
+      <option name="METHOD_NAME" value="start" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CssnjWorksApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cssnj_works" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cwks.CssnjWorksApplication" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="C:\Program Files\Java\jdk1.8.0_131\jre" />
+      <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.UploadTestController" />
+      <item itemvalue="JUnit.UploadTestController.start" />
+      <item itemvalue="JUnit.UploadTestController.start (1)" />
+      <item itemvalue="Spring Boot.CssnjWorksApplication" />
+      <item itemvalue="Application.HttpClientUtil" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.HttpClientUtil" />
+        <item itemvalue="JUnit.UploadTestController.start (1)" />
+        <item itemvalue="JUnit.UploadTestController.start" />
+        <item itemvalue="JUnit.UploadTestController" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\Administrator\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="05f7b0dd-6201-4446-a202-ed0c6428f319" name="Default" comment="" />
+      <created>1527922716933</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1527922716933</updated>
+      <workItem from="1527922727844" duration="332000" />
+      <workItem from="1534428464764" duration="251000" />
+      <workItem from="1534428723360" duration="900000" />
+      <workItem from="1534429942141" duration="1569000" />
+      <workItem from="1534431521848" duration="3650000" />
+      <workItem from="1534836298475" duration="4499000" />
+      <workItem from="1534900819947" duration="6347000" />
+      <workItem from="1534987135745" duration="24044000" />
+      <workItem from="1535072882925" duration="8843000" />
+      <workItem from="1535439059167" duration="3991000" />
+      <workItem from="1535450545878" duration="5466000" />
+      <workItem from="1535462988697" duration="3369000" />
+      <workItem from="1535504748434" duration="8888000" />
+      <workItem from="1536029689173" duration="116000" />
+      <workItem from="1536029890337" duration="1767000" />
+      <workItem from="1536031836810" duration="106000" />
+      <workItem from="1536045282590" duration="1964000" />
+      <workItem from="1536117932313" duration="811000" />
+      <workItem from="1536225753621" duration="282000" />
+      <workItem from="1536288777748" duration="893000" />
+      <workItem from="1536736635369" duration="3300000" />
+      <workItem from="1538827834559" duration="653000" />
+      <workItem from="1538907741344" duration="668000" />
+      <workItem from="1542340110829" duration="14249000" />
+      <workItem from="1542588368883" duration="80000" />
+      <workItem from="1542589023672" duration="9176000" />
+      <workItem from="1542607784805" duration="19000" />
+      <workItem from="1542608038584" duration="10777000" />
+      <workItem from="1542675461636" duration="12860000" />
+      <workItem from="1542719869651" duration="2999000" />
+      <workItem from="1542761430005" duration="10162000" />
+      <workItem from="1542799533890" duration="595000" />
+      <workItem from="1542935974428" duration="7324000" />
+      <workItem from="1543196192557" duration="4224000" />
+      <workItem from="1543283832390" duration="2785000" />
+      <workItem from="1543298276279" duration="792000" />
+      <workItem from="1543299489579" duration="987000" />
+      <workItem from="1543308672869" duration="596000" />
+      <workItem from="1543366629274" duration="8707000" />
+      <workItem from="1543389791864" duration="6093000" />
+      <workItem from="1543454908984" duration="7498000" />
+      <workItem from="1544420946175" duration="2235000" />
+      <workItem from="1546500613800" duration="1765000" />
+      <workItem from="1547082659555" duration="1372000" />
+      <workItem from="1547537021477" duration="1763000" />
+      <workItem from="1547542385416" duration="127000" />
+      <workItem from="1547546398692" duration="3420000" />
+      <workItem from="1547557121873" duration="3489000" />
+      <workItem from="1547601880961" duration="19324000" />
+      <workItem from="1547686951440" duration="2269000" />
+      <workItem from="1547696194766" duration="4840000" />
+      <workItem from="1547773616166" duration="4089000" />
+      <workItem from="1548032700091" duration="7893000" />
+      <workItem from="1548117564473" duration="566000" />
+      <workItem from="1548118179044" duration="4943000" />
+      <workItem from="1548209808356" duration="1188000" />
+      <workItem from="1548292200835" duration="575000" />
+      <workItem from="1548726662661" duration="19594000" />
+      <workItem from="1548810124657" duration="21945000" />
+      <workItem from="1548911856232" duration="10451000" />
+      <workItem from="1548982456787" duration="3976000" />
+      <workItem from="1548989349248" duration="6952000" />
+      <workItem from="1550379287663" duration="2345000" />
+      <workItem from="1550381720718" duration="7293000" />
+      <workItem from="1550452091157" duration="1747000" />
+      <workItem from="1550541137018" duration="73000" />
+      <workItem from="1550561697835" duration="1610000" />
+      <workItem from="1550622291002" duration="3921000" />
+      <workItem from="1550729492503" duration="804000" />
+      <workItem from="1550730689918" duration="112000" />
+      <workItem from="1550730812009" duration="2040000" />
+      <workItem from="1550736010849" duration="5269000" />
+      <workItem from="1550797682055" duration="10630000" />
+      <workItem from="1551171076160" duration="2723000" />
+      <workItem from="1551247617873" duration="8832000" />
+      <workItem from="1551260065371" duration="39000" />
+      <workItem from="1551260116133" duration="15000" />
+      <workItem from="1551260198588" duration="92000" />
+      <workItem from="1551260299303" duration="28000" />
+      <workItem from="1551319475075" duration="1877000" />
+      <workItem from="1551359653586" duration="3988000" />
+      <workItem from="1551403802688" duration="4383000" />
+      <workItem from="1551409196386" duration="15073000" />
+      <workItem from="1551452087192" duration="52000" />
+      <workItem from="1551452328658" duration="1923000" />
+      <workItem from="1551663320995" duration="3631000" />
+      <workItem from="1551670287552" duration="11682000" />
+      <workItem from="1551772653232" duration="4344000" />
+      <workItem from="1551834976183" duration="9673000" />
+      <workItem from="1551921226816" duration="635000" />
+      <workItem from="1552016351687" duration="3573000" />
+      <workItem from="1552027592123" duration="2790000" />
+      <workItem from="1552269172724" duration="15005000" />
+      <workItem from="1552352668336" duration="16015000" />
+      <workItem from="1552439289135" duration="2029000" />
+      <workItem from="1552529147907" duration="3895000" />
+      <workItem from="1552533226756" duration="5340000" />
+      <workItem from="1552620376396" duration="4332000" />
+      <workItem from="1552961518067" duration="789000" />
+      <workItem from="1552981941888" duration="4259000" />
+      <workItem from="1553043779766" duration="20917000" />
+      <workItem from="1553133213931" duration="3715000" />
+      <workItem from="1553146789378" duration="11819000" />
+      <workItem from="1553168230039" duration="6114000" />
+      <workItem from="1553216287064" duration="21950000" />
+      <workItem from="1553491566932" duration="18571000" />
+      <workItem from="1553648829381" duration="7023000" />
+      <workItem from="1553735944212" duration="9955000" />
+      <workItem from="1553753597531" duration="15372000" />
+      <workItem from="1553779806532" duration="1937000" />
+      <workItem from="1553820707152" duration="15016000" />
+      <workItem from="1553954846673" duration="1200000" />
+      <workItem from="1554301397029" duration="4137000" />
+      <workItem from="1554339122813" duration="218000" />
+      <workItem from="1554607428853" duration="609000" />
+      <workItem from="1554865961841" duration="742000" />
+      <workItem from="1555308015425" duration="2904000" />
+      <workItem from="1555381608134" duration="2285000" />
+      <workItem from="1556067968158" duration="1209000" />
+      <workItem from="1556156876700" duration="6935000" />
+      <workItem from="1556240582165" duration="596000" />
+      <workItem from="1556413271584" duration="5756000" />
+      <workItem from="1557190992965" duration="947000" />
+      <workItem from="1557193213639" duration="1842000" />
+      <workItem from="1557303585845" duration="9468000" />
+      <workItem from="1557363986510" duration="5495000" />
+      <workItem from="1557451771907" duration="3107000" />
+      <workItem from="1559528437449" duration="14466000" />
+      <workItem from="1559610462087" duration="9258000" />
+      <workItem from="1559701662969" duration="1440000" />
+      <workItem from="1559783230836" duration="3340000" />
+      <workItem from="1560131967936" duration="670000" />
+      <workItem from="1560146786585" duration="29000" />
+      <workItem from="1562739077967" duration="831000" />
+      <workItem from="1562742600340" duration="1970000" />
+      <workItem from="1562894174358" duration="2178000" />
+      <workItem from="1562899027988" duration="24000" />
+      <workItem from="1563504235683" duration="1713000" />
+      <workItem from="1563867352055" duration="23000" />
+      <workItem from="1564040355299" duration="33000" />
+      <workItem from="1564451349001" duration="97000" />
+      <workItem from="1564466685249" duration="86000" />
+      <workItem from="1564468051742" duration="143000" />
+      <workItem from="1564470081203" duration="608000" />
+      <workItem from="1564471506181" duration="135000" />
+      <workItem from="1567058826424" duration="157000" />
+      <workItem from="1568614984568" duration="167000" />
+      <workItem from="1568708570390" duration="8210000" />
+      <workItem from="1568768386164" duration="28775000" />
+      <workItem from="1568858656296" duration="956000" />
+      <workItem from="1568861965757" duration="19892000" />
+      <workItem from="1568886000924" duration="3883000" />
+      <workItem from="1568890179954" duration="2530000" />
+      <workItem from="1569204577618" duration="3269000" />
+      <workItem from="1569287013651" duration="1388000" />
+      <workItem from="1569301477683" duration="10587000" />
+      <workItem from="1569373615834" duration="7889000" />
+      <workItem from="1569390827446" duration="2837000" />
+      <workItem from="1569400917779" duration="842000" />
+      <workItem from="1569409026636" duration="2572000" />
+      <workItem from="1569457357190" duration="31952000" />
+      <workItem from="1569497462856" duration="1457000" />
+      <workItem from="1569543867321" duration="22111000" />
+      <workItem from="1569572673915" duration="5846000" />
+      <workItem from="1569578581090" duration="4265000" />
+      <workItem from="1569717701653" duration="13660000" />
+      <workItem from="1569739325004" duration="12243000" />
+      <workItem from="1569753862478" duration="4514000" />
+      <workItem from="1569803555254" duration="25213000" />
+      <workItem from="1570415644085" duration="38296000" />
+      <workItem from="1570581131312" duration="1737000" />
+      <workItem from="1570763708785" duration="371000" />
+      <workItem from="1570764094157" duration="1881000" />
+      <workItem from="1570773348734" duration="6185000" />
+      <workItem from="1570842011754" duration="20430000" />
+      <workItem from="1570933618775" duration="579000" />
+      <workItem from="1570936982717" duration="2362000" />
+      <workItem from="1571121516847" duration="3651000" />
+      <workItem from="1571134740541" duration="5814000" />
+      <workItem from="1571626275136" duration="12961000" />
+      <workItem from="1571648621346" duration="3324000" />
+      <workItem from="1571652716199" duration="288000" />
+      <workItem from="1571704461799" duration="6662000" />
+    </task>
+    <task id="LOCAL-00003" summary="admin create">
+      <created>1550623581467</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1550623581467</updated>
+    </task>
+    <task id="LOCAL-00004" summary="admin create">
+      <created>1550623661485</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1550623661485</updated>
+    </task>
+    <task id="LOCAL-00005" summary="admin create">
+      <created>1550729661238</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1550729661238</updated>
+    </task>
+    <task id="LOCAL-00006" summary="admin create">
+      <created>1550729729120</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1550729729120</updated>
+    </task>
+    <task id="LOCAL-00007" summary="admin create">
+      <created>1550731370785</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1550731370785</updated>
+    </task>
+    <task id="LOCAL-00008" summary="admin create">
+      <created>1550797917479</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1550797917479</updated>
+    </task>
+    <task id="LOCAL-00009" summary="admin create">
+      <created>1550799931164</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1550799931164</updated>
+    </task>
+    <task id="LOCAL-00010" summary="admin create">
+      <created>1550816528724</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1550816528724</updated>
+    </task>
+    <task id="LOCAL-00011" summary="admin create">
+      <created>1550820117154</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1550820117154</updated>
+    </task>
+    <task id="LOCAL-00012" summary="admin create">
+      <created>1550821215208</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1550821215208</updated>
+    </task>
+    <task id="LOCAL-00013" summary="admin create">
+      <created>1550825517706</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1550825517706</updated>
+    </task>
+    <task id="LOCAL-00014" summary="admin create">
+      <created>1551172437844</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1551172437849</updated>
+    </task>
+    <task id="LOCAL-00015" summary="admin create">
+      <created>1551173518377</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1551173518377</updated>
+    </task>
+    <task id="LOCAL-00016" summary="admin create">
+      <created>1551249665960</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1551249665960</updated>
+    </task>
+    <task id="LOCAL-00017" summary="admin create">
+      <created>1551252915148</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1551252915148</updated>
+    </task>
+    <task id="LOCAL-00018" summary="admin create">
+      <created>1551254470262</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1551254470262</updated>
+    </task>
+    <task id="LOCAL-00019" summary="admin create">
+      <created>1551256854128</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1551256854128</updated>
+    </task>
+    <task id="LOCAL-00020" summary="admin create">
+      <created>1551257643256</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1551257643256</updated>
+    </task>
+    <task id="LOCAL-00021" summary="admin create">
+      <created>1568863675861</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1568863675862</updated>
+    </task>
+    <task id="LOCAL-00022" summary="hur create">
+      <created>1568863972097</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1568863972097</updated>
+    </task>
+    <task id="LOCAL-00023" summary="admin create">
+      <created>1568864130156</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1568864130156</updated>
+    </task>
+    <task id="LOCAL-00024" summary="admin create">
+      <created>1568864824006</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1568864824006</updated>
+    </task>
+    <task id="LOCAL-00025" summary="admin create">
+      <created>1568866369952</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1568866369952</updated>
+    </task>
+    <task id="LOCAL-00026" summary="admin create">
+      <created>1568875495591</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1568875495591</updated>
+    </task>
+    <task id="LOCAL-00027" summary="admin create">
+      <created>1568877266784</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1568877266784</updated>
+    </task>
+    <task id="LOCAL-00028" summary="admin create">
+      <created>1568883913951</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1568883913951</updated>
+    </task>
+    <task id="LOCAL-00029" summary="hur update">
+      <created>1568885634704</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1568885634704</updated>
+    </task>
+    <task id="LOCAL-00030" summary="hur update">
+      <created>1568885799148</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1568885799148</updated>
+    </task>
+    <task id="LOCAL-00031" summary="hur update">
+      <created>1568886136594</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1568886136594</updated>
+    </task>
+    <task id="LOCAL-00032" summary="hur update">
+      <created>1568886661168</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1568886661168</updated>
+    </task>
+    <task id="LOCAL-00033" summary="hur update">
+      <created>1568890099450</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1568890099450</updated>
+    </task>
+    <task id="LOCAL-00034" summary="hur update">
+      <created>1568892280022</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1568892280022</updated>
+    </task>
+    <task id="LOCAL-00035" summary="hur update">
+      <created>1568892696390</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1568892696390</updated>
+    </task>
+    <task id="LOCAL-00036" summary="hur update">
+      <created>1569204931979</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1569204931980</updated>
+    </task>
+    <task id="LOCAL-00037" summary="hur update">
+      <created>1569208184314</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1569208184314</updated>
+    </task>
+    <task id="LOCAL-00038" summary="hur update">
+      <created>1569312388159</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1569312388159</updated>
+    </task>
+    <task id="LOCAL-00039" summary="hur update">
+      <created>1569313763397</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1569313763397</updated>
+    </task>
+    <task id="LOCAL-00040" summary="hur update">
+      <created>1570764466574</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1570764466574</updated>
+    </task>
+    <task id="LOCAL-00041" summary="hur update">
+      <created>1570764680501</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1570764680501</updated>
+    </task>
+    <task id="LOCAL-00042" summary="hur update">
+      <created>1570790546315</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1570790546315</updated>
+    </task>
+    <task id="LOCAL-00043" summary="hur update">
+      <created>1570847733916</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1570847733916</updated>
+    </task>
+    <task id="LOCAL-00044" summary="hur update">
+      <created>1570848338762</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1570848338762</updated>
+    </task>
+    <task id="LOCAL-00045" summary="hur update">
+      <created>1570849526681</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1570849526682</updated>
+    </task>
+    <task id="LOCAL-00046" summary="hur update">
+      <created>1570864928985</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1570864928985</updated>
+    </task>
+    <task id="LOCAL-00047" summary="hur update">
+      <created>1570866037449</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1570866037449</updated>
+    </task>
+    <task id="LOCAL-00048" summary="hur update">
+      <created>1570870431108</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1570870431108</updated>
+    </task>
+    <task id="LOCAL-00049" summary="hur update">
+      <created>1570873336659</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1570873336659</updated>
+    </task>
+    <task id="LOCAL-00050" summary="hur update">
+      <created>1570885955372</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1570885955374</updated>
+    </task>
+    <task id="LOCAL-00051" summary="hur update">
+      <created>1570886430635</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1570886430635</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="UploadTestController_start_(1) - 2019.10.21 at 17h 31m 05s.xml">
+      <configuration name="UploadTestController.start (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UploadTestController_start_(1) - 2019.10.21 at 17h 33m 05s.xml">
+      <configuration name="UploadTestController.start (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UploadTestController_start_(1) - 2019.10.21 at 17h 45m 17s.xml">
+      <configuration name="UploadTestController.start (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UploadTestController_start_(1) - 2019.10.21 at 17h 48m 14s.xml">
+      <configuration name="UploadTestController.start (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UploadTestController_start_(1) - 2019.10.21 at 17h 49m 23s.xml">
+      <configuration name="UploadTestController.start (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UploadTestController_start_(1) - 2019.10.21 at 17h 50m 57s.xml">
+      <configuration name="UploadTestController.start (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UploadTestController_start_(1) - 2019.10.21 at 17h 56m 25s.xml">
+      <configuration name="UploadTestController.start (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UploadTestController_start_(1) - 2019.10.22 at 08h 37m 05s.xml">
+      <configuration name="UploadTestController.start (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UploadTestController_start - 2019.10.22 at 08h 38m 32s.xml">
+      <configuration name="UploadTestController.start" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UploadTestController_start_(1) - 2019.10.22 at 08h 39m 08s.xml">
+      <configuration name="UploadTestController.start (1)" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1007135000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" x="37" y="73" width="373" height="923" id="Project" order="0" sideWeight="0.4939759" visible="true" weight="0.26072386" />
+      <window_info id="Structure" order="1" sideWeight="0.5060241" side_tool="true" weight="0.21983914" />
+      <window_info id="Designer" order="2" />
+      <window_info id="JRebel" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" sideWeight="0.5065913" side_tool="true" weight="0.30630028" />
+      <window_info id="Learn" order="7" />
+      <window_info id="Web" order="8" side_tool="true" />
+      <window_info id="Capture Tool" order="9" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49200428" weight="0.34229138" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.30736545" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.7627932" weight="0.46033993" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49840087" weight="0.32719547" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="7" sideWeight="0.4989339" weight="0.32936078" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49520257" weight="0.3281471" />
+      <window_info anchor="bottom" id="Messages" order="9" sideWeight="0.4717484" weight="0.26203966" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.4946695" weight="0.329718" />
+      <window_info anchor="bottom" id="JRebel Executor" order="12" sideWeight="0.49412394" weight="0.40520042" />
+      <window_info anchor="bottom" id="JRebel Console" order="13" sideWeight="0.5053305" side_tool="true" weight="0.329718" />
+      <window_info anchor="bottom" id="Java Enterprise" order="14" weight="0.3281471" />
+      <window_info anchor="bottom" id="Spring" order="15" weight="0.3281471" />
+      <window_info anchor="bottom" id="Event Log" order="16" sideWeight="0.22014925" side_tool="true" weight="0.25893825" />
+      <window_info anchor="bottom" id="Problems" order="17" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run Dashboard" order="18" sideWeight="0.82835823" visible="true" weight="0.44334278" />
+      <window_info anchor="bottom" id="Docker" order="19" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Database" order="7" weight="0.32995737" />
+      <window_info anchor="right" id="Bean Validation" order="8" />
+      <window_info anchor="right" id="JRebel Setup Guide" internal_type="SLIDING" order="9" type="SLIDING" weight="0.9401914" />
+      <window_info anchor="right" id="Preview" order="10" weight="0.32995737" />
+      <window_info anchor="right" id="Maven Projects" order="11" weight="0.18710022" />
+      <window_info anchor="right" id="Maven" order="12" weight="0.3297587" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="EXTERNAL E:/workspace_cwks_mh/cssnj_works">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="hur create" />
+    <MESSAGE value="admin create" />
+    <MESSAGE value="hur update" />
+    <option name="LAST_COMMIT_MESSAGE" value="hur update" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/cwks/job/util/ScheduleJob.java</url>
+          <line>29</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/cwks/job/util/ScheduleUtils.java</url>
+          <line>69</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/cwks/bizcore/tycx/core/service/test.java</url>
+          <line>50</line>
+          <properties />
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/lib/cssnj-core-1.0.0.jar!/com/cssnj/core/web/ctrl/CssnjController.class</url>
+          <line>1142</line>
+          <properties />
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/lib/cssnj-core-1.0.0.jar!/com/cssnj/core/web/ctrl/CssnjController.class</url>
+          <line>1153</line>
+          <properties />
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/lib/cssnj-core-1.0.0.jar!/com/cssnj/core/delegate/ServiceDelegate.class</url>
+          <line>24</line>
+          <properties />
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/lib/cssnj-core-1.0.0.jar!/com/cssnj/core/systemConfig/SystemApplicationContext.class</url>
+          <line>268</line>
+          <properties />
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/cwks/bizcore/tycx/core/service/test.java</url>
+          <line>258</line>
+          <properties />
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/lib/cssnj-core-1.0.0.jar!/com/cssnj/core/systemConfig/SystemContext.class</url>
+          <line>76</line>
+          <properties />
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/cwks/bizcore/tycx/core/utils/tycxUtil.java</url>
+          <line>29</line>
+          <properties />
+          <option name="timeStamp" value="84" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/cwks/bizcore/utils/DBPoolConnection.java</url>
+          <line>52</line>
+          <properties />
+          <option name="timeStamp" value="92" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/cwks/common/core/cache/CacheUtil.java</url>
+          <line>63</line>
+          <properties />
+          <option name="timeStamp" value="93" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/cwks/common/core/cache/CacheUtil.java</url>
+          <line>67</line>
+          <properties />
+          <option name="timeStamp" value="94" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/cwks/common/core/cache/EHCacheManager.java</url>
+          <line>132</line>
+          <properties />
+          <option name="timeStamp" value="95" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/cwks/bizcore/yyfb/service/YyfbService.java</url>
+          <line>98</line>
+          <properties />
+          <option name="timeStamp" value="103" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/cwks/bizcore/tycx/core/service/test.java</url>
+          <line>61</line>
+          <properties />
+          <option name="timeStamp" value="112" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/lib/cssnj-sso-core.jar!/cn/org/cssnj/centralportal/sso/client/SsoFilterHelper.class</url>
+          <line>153</line>
+          <properties />
+          <option name="timeStamp" value="126" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/github/pagehelper/pagehelper/4.1.1/pagehelper-4.1.1-sources.jar!/com/github/pagehelper/PageHelper.java</url>
+          <line>191</line>
+          <properties />
+          <option name="timeStamp" value="135" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/github/pagehelper/pagehelper/4.1.1/pagehelper-4.1.1-sources.jar!/com/github/pagehelper/SqlUtil.java</url>
+          <line>162</line>
+          <properties />
+          <option name="timeStamp" value="137" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/github/pagehelper/pagehelper/4.1.1/pagehelper-4.1.1-sources.jar!/com/github/pagehelper/SqlUtil.java</url>
+          <line>228</line>
+          <properties />
+          <option name="timeStamp" value="138" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/github/pagehelper/pagehelper/4.1.1/pagehelper-4.1.1-sources.jar!/com/github/pagehelper/SqlUtil.java</url>
+          <line>527</line>
+          <properties />
+          <option name="timeStamp" value="139" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/cwks/bizcore/tycx/core/service/Tycx002DzcxService.java</url>
+          <line>1359</line>
+          <properties />
+          <option name="timeStamp" value="169" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/cwks/delegate/LocalServiceLocator.java</url>
+          <line>28</line>
+          <properties />
+          <option name="timeStamp" value="176" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/cwks/delegate/LocalServiceLocator.java</url>
+          <line>44</line>
+          <properties />
+          <option name="timeStamp" value="178" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/cwks/delegate/LocalServiceLocator.java</url>
+          <line>43</line>
+          <properties />
+          <option name="timeStamp" value="180" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/test/UploadTestController.java</url>
+          <line>95</line>
+          <properties />
+          <option name="timeStamp" value="183" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/test/UploadTestController.java</url>
+          <line>82</line>
+          <properties />
+          <option name="timeStamp" value="185" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/cwks/bizcore/sjjh/core/config/JhQzFwContext.java</url>
+          <line>159</line>
+          <properties />
+          <option name="timeStamp" value="189" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/cwks/bizcore/sjjh/core/ctrl/JhFwWebService.java</url>
+          <line>55</line>
+          <properties />
+          <option name="timeStamp" value="191" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/cwks/bizcore/config/CxfConfig.java</url>
+          <line>53</line>
+          <properties />
+          <option name="timeStamp" value="192" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/cwks/bizcore/config/CxfConfig.java</url>
+          <line>42</line>
+          <properties />
+          <option name="timeStamp" value="193" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/cwks/bizcore/config/CxfConfig.java</url>
+          <line>46</line>
+          <properties />
+          <option name="timeStamp" value="194" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="SpringBootApplicationConfigurationType">
+        <watch expression="userName" />
+        <watch expression="(String)infomap.get(&quot;swryxm&quot;)" />
+        <watch expression="captcha.text().toLowerCase()" />
+        <watch expression="captcha.text().toLowerCase()" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateCodeFragment">
+      <expression>
+        <expression-string>SpringBus</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>ftpClient.retrieveFile(filename, is)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>ftp.login(username, password)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>localFile</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>ftpClient.changeWorkingDirectory(pathname)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>new XSSFWorkbook(OPCPackage.open(new FileInputStream(file)))</expression-string>
+        <language-id>JAVA</language-id>
+        <custom-info>org.apache.poi.openxml4j.opc.OPCPackage</custom-info>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>new XSSFWorkbook(new FileInputStream(file))</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>WorkbookFactory.create(new FileInputStream(file))</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>new FileInputStream(file)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+    </expressions>
+    <expressions id="watch">
+      <expression>
+        <expression-string>request.getParameter(&quot;p&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cwks/biz/sjjh/util/FtpUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/springfox/springfox-schema/2.9.2/springfox-schema-2.9.2.jar!/springfox/documentation/schema/DefaultModelDependencyProvider.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="59">
+          <caret line="49" column="5" lean-forward="true" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/github/jsqlparser/jsqlparser/1.0/jsqlparser-1.0.jar!/net/sf/jsqlparser/expression/operators/arithmetic/Concat.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cwks/biz/demo/dao/JhfwMbFileMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cwks/biz/demo/dao/JhfwMbFileSheetMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.8.RELEASE/spring-web-5.1.8.RELEASE.jar!/org/springframework/web/client/RestTemplate.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="54" column="74" lean-forward="true" selection-start-line="54" selection-start-column="74" selection-end-line="54" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/UploadTestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="126" column="35" lean-forward="true" selection-start-line="126" selection-start-column="35" selection-end-line="126" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cwks/bizcore/comm/utils/FtpUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cwks/common/core/systemConfig/SpringContextUtil.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cwks/common/core/systemConfig/BizContext.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cwks/common/config/ClientContext.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/biz/biz.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="63" lean-forward="true" selection-start-line="7" selection-start-column="63" selection-end-line="7" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/idea64.exe.vmoptions">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="21" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/info/info.2019-10-21.log" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/biz/error_message.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="14" column="41" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.8.RELEASE/spring-context-5.1.8.RELEASE.jar!/org/springframework/stereotype/Component.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="16" column="8" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cwks/bizcore/sjjh/core/ctrl/JhFwController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="59" column="60" selection-start-line="59" selection-start-column="60" selection-end-line="59" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cwks/bizcore/sjjh/core/utils/db/DBPoolConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="27" column="6" lean-forward="true" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.1.6.RELEASE/spring-boot-autoconfigure-2.1.6.RELEASE.jar!/org/springframework/boot/autoconfigure/quartz/QuartzAutoConfiguration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="129" column="70" selection-start-line="129" selection-start-column="43" selection-end-line="129" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cwks/bizcore/sjjh/core/config/JhQzFwContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3808">
+          <caret line="251" column="46" selection-start-line="251" selection-start-column="46" selection-end-line="251" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/commons-net/commons-net/3.5/commons-net-3.5.jar!/org/apache/commons/net/ftp/FTPClient.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="634" column="19" selection-start-line="634" selection-start-column="19" selection-end-line="634" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cwks/bizcore/sjjh/core/service/JhQzFwService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="391" selection-start-line="391" selection-end-line="391" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cwks/bizcore/sjjh/core/service/JhDlBizDealService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="55">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cwks/bizcore/sjjh/core/utils/ExcelUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="58" column="37" selection-start-line="58" selection-start-column="37" selection-end-line="58" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/config/jhdl/jhqzfw_resources.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="79" column="73" selection-start-line="79" selection-start-column="73" selection-end-line="79" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cwks/bizcore/sjjh/core/utils/JhdlBizCoreUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="44" column="37" selection-start-line="44" selection-start-column="37" selection-end-line="44" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cwks/bizcore/sjjh/core/utils/FtpUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="40" column="43" selection-start-line="40" selection-start-column="43" selection-end-line="40" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/test/UploadTestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="56" column="40" lean-forward="true" selection-start-line="56" selection-start-column="40" selection-end-line="56" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/config/jhdl/datasources.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3383">
+          <caret line="199" column="9" selection-start-line="199" selection-start-column="9" selection-end-line="199" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cwks/biz/sjjh/mb/ExcelTaxDataLoadMb.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="66" column="21" selection-start-line="66" selection-start-column="21" selection-end-line="66" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cwks/bizcore/sjjh/core/utils/db/DataSourceUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cwks/biz/sjjh/mq/service/JhDlQzMqService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/config/sql/sql-jhdl.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" column="10" selection-start-line="36" selection-start-column="10" selection-end-line="36" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/config/jhdl/jhqzfw_resources_clients.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cwks/bizcore/config/CwksProperies.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="13" column="38" lean-forward="true" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="27" column="62" selection-start-line="27" selection-start-column="62" selection-end-line="27" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cwks/bizcore/config/PdaEndpoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/config/webservice/css_ws_client.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/config/webservice/css_ws_service.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="88" column="28" selection-start-line="88" selection-start-column="28" selection-end-line="88" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cwks/bizcore/sjjh/core/vo/JhDlTempletEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="105" column="1" selection-start-line="105" selection-start-column="1" selection-end-line="105" selection-end-column="1" />
+          <folding>
+            <element signature="e#1319#1320#0" expanded="true" />
+            <element signature="e#1354#1355#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cwks/bizcore/sjjh/core/utils/RestfulHttpClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1028">
+          <caret line="74" column="19" selection-start-line="74" selection-start-column="19" selection-end-line="74" selection-end-column="19" />
+          <folding>
+            <element signature="e#2061#2062#0" expanded="true" />
+            <element signature="e#2103#2104#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cwks/CssnjWorksApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="28" column="27" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/cxf/cxf-core/3.2.1/cxf-core-3.2.1-sources.jar!/org/apache/cxf/Bus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="38" column="11" selection-start-line="38" selection-start-column="11" selection-end-line="38" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/config/webservice/webservice.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="21" column="23" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cwks/biz/sjjh/util/HttpClientUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="196" column="91" selection-start-line="196" selection-start-column="76" selection-end-line="196" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.1.8.RELEASE/spring-core-5.1.8.RELEASE.jar!/org/springframework/cglib/proxy/MethodProxy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="118" selection-start-line="118" selection-end-line="118" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cwks/bizcore/config/CxfConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="44" column="36" selection-start-line="44" selection-start-column="36" selection-end-line="44" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1218#1219#0" expanded="true" />
+            <element signature="e#1296#1297#0" expanded="true" />
+            <element signature="e#1347#1348#0" expanded="true" />
+            <element signature="e#1385#1386#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cwks/bizcore/config/WebServiceConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="30" column="32" lean-forward="true" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cwks/bizcore/sjjh/core/utils/JhdlBizTemplete.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="42" column="30" selection-start-line="42" selection-start-column="30" selection-end-line="42" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cwks/bizcore/sjjh/core/ctrl/JhFwWebService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="28" column="3" selection-start-line="28" selection-start-column="3" selection-end-line="28" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>cssnj_tykf:war exploded</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.3761623" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring (cssnj_works)|Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.3761623" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.3761623" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.3761623" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>cssnj_works</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.3761623" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: ch.qos.logback:logback-classic:1.2.3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.3761623" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

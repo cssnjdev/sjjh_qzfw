@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>=====</title>
+	<meta http-equiv="pragma" content="no-cache">
+	<meta http-equiv="cache-control" content="no-cache">
+	<meta http-equiv="expires" content="0">    
+	<meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
+	<meta http-equiv="description" content="This is my page">
+	 <script type="text/javascript" src="/public/js/core/jquery/jquery-1.8.3.min.js"></script>
+	
+	<script type="text/javascript" src="/workflow/core/workflow.js"></script>
+  </head>
+  <script type="text/javascript">
+  		function init() {
+		  	$.ajax({
+		        type: "post",
+		        url: "http://localhost:8001/cssnj/ajax.action?tld=WfWebUtil_getLzxx&callback=cssnj_workflow_lzxx_callBack",
+		        data: {"lcslh": "8108646692314EC8A4E50CEEAE25C1B4"},
+		        dataType: "jsonp", 
+		        cache: false,
+		        success: function (data) {
+		        	
+		        }
+		    });
+		}
+	
+	function cssnj_workflow_lzxx_callBack(data) {
+		
+		alert(data.success);
+				
+		        var jsonData = 	data.workItemList;
+		        	
+		        	
+		        	
+		        
+					for (o in jsonData) {
+					
+						
+						var newTr = lzxx.insertRow();
+						var newTd0 = newTr.insertCell();
+						var newTd1 = newTr.insertCell();
+						var newTd2 = newTr.insertCell();
+						var newTd3 = newTr.insertCell();
+						var newTd4 = newTr.insertCell();
+						var newTd5 = newTr.insertCell();
+						var newTd6 = newTr.insertCell();
+						var newTd7 = newTr.insertCell();
+						var newTd8 = newTr.insertCell();
+						var newTd9 = newTr.insertCell();
+						var newTd10 = newTr.insertCell();
+						var newTd11 = newTr.insertCell();
+						var newTd12 = newTr.insertCell();
+						
+						newTd0.innerText = jsonData[o].WORKITEMID;
+						newTd1.innerText= jsonData[o].HDSLID;
+						newTd2.innerText= jsonData[o].QSSJ;
+						newTd3.innerText= jsonData[o].BLRY_DM;
+						newTd4.innerText= jsonData[o].BLRYJG_DM;
+						newTd5.innerText= jsonData[o].BLRYGW_DM;						
+						newTd6.innerText= jsonData[o].TSDYID;
+						newTd7.innerText= jsonData[o].TSRY_DM;
+						newTd8.innerText= jsonData[o].TSRY_JGDM;
+						newTd9.innerText= jsonData[o].TSRY_GWDM;
+						newTd10.innerText= jsonData[o].TS_SJ;
+						newTd11.innerText= jsonData[o].TSFS;
+						newTd12.innerText= jsonData[o].WCSJ;
+						
+					}
+					
+				
+	}
+			
+		
+  </script>
+  <body onload="init()">
+  
+     
+     任务流转 ---------- 
+     <br/>
+     <div>
+     	<table id="lzxx" border=1>
+     		<tr>
+     			<td>workItemId</td><td>hddyid</td><td>签收时间</td><td>blry</td><td>bljg</td><td>blgw</td><td>tsdyid</td><td>tsry</td><td>tsjg</td><td>tsgw</td><td>tssj</td><td>tsfs</td><td>wcsj</td>
+     		</tr>
+     	</table>
+     </div>
+     
+      <br>
+    <img src="/wfctrl/viewImage.action?tld=WfWebUtil_viewImage&processInstanceId=275038" style="border:1px solid red"/>
+    
+  </body>
+</html>

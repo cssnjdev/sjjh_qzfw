@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sqlfile>
+    <sql id="SQL_JHDL_GET_FILE_CONFIG_EXCEL_SHEET" describ="获取文件交换配置EXCEL分页建表信息" isLoad="true">
+        select mb_id, table_name, sheet_index, qshs, qsls,table_ms,table_schema from t_jhfw_mb_file_sheet where mb_id=?
+    </sql>
+    <sql id="SQL_JHDL_GET_FILE_CONFIG_EXCEL_COLMX" describ="获取文件交换配置EXCEL建表明细信息" isLoad="true">
+        select mb_id, sheet_index, table_name, excel_colmc, zd_mc, db_colmc, zf_bj,DB_COLMC_TYPE,DB_COLMC_LEN from t_jhfw_mb_file_colmx where (zf_bj is null or zf_bj ='0') and mb_id=? and table_name=? and sheet_index=?
+    </sql>
+    <sql id="SQL_JHDL_GET_TABLE_COMMENTS_BY_TBNAME_ORACLE" describ="ORACLE下获取相关表描述信息" isLoad="true">
+        select rownum as No,Table_Name as TABLE_NAME, Comments as TABLE_COMMENT from
+        (select a.Table_Name,a.OWNER,b.Comments,b.Table_Type from all_tables a left join user_tab_comments b
+        on a.TABLE_NAME=b.table_name) c where c.owner=? and c.Table_Type='TABLE' and c.table_name=?
+    </sql>
+    <sql id="SQL_JHDL_GET_TABLE_STRUCTURE_BY_TBNAME_ORACLE" describ="ORACLE下获取相关表结构信息" isLoad="true">
+        select a.column_name,a.data_type,a.data_scale,a.data_length From all_tab_cols a Where  a.table_name =? Order By a.column_name
+    </sql>
+    <sql id="SQL_JHDL_GET_TABLE_STRUCTURE_BY_TBNAME_OWNER_ORACLE" describ="ORACLE下获取相关表结构信息" isLoad="true">
+        select a.column_name,a.data_type,a.data_scale,a.data_length From all_tab_cols a Where  a.table_name =?  and a.owner=? Order By a.column_name
+    </sql>
+    <sql id="SQL_JHDL_GET_TABLE_COMMENTS_BY_TBNAME_MYSQL" describ="MYSQL下获取相关表描述信息" isLoad="true">
+        SELECT TABLE_NAME as TABLE_NAME,TABLE_COMMENT as TABLE_COMMENT FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA=? AND TABLE_NAME=?
+    </sql>
+    <sql id="SQL_JHDL_GET_TABLE_STRUCTURE_BY_TBNAME_MYSQL" describ="MYSQL下获取相关表结构信息" isLoad="true">
+        select t.COLUMN_NAME as column_name, t.DATA_TYPE as data_type, t.COLUMN_COMMENT as column_ms ,t.CHARACTER_MAXIMUM_LENGTH as data_length, t.NUMERIC_SCALE as data_scale from INFORMATION_SCHEMA.COLUMNS t
+        Where t.table_name = ?  ORDER BY t.column_name
+    </sql>
+    <sql id="SQL_JHDL_GET_TABLE_STRUCTURE_BY_TBNAME_OWNER_MYSQL" describ="MYSQL下获取相关表结构信息" isLoad="true">
+        select t.COLUMN_NAME as column_name, t.DATA_TYPE as data_type, t.COLUMN_COMMENT as column_ms ,t.CHARACTER_MAXIMUM_LENGTH as data_length, t.NUMERIC_SCALE as data_scale from INFORMATION_SCHEMA.COLUMNS t
+        Where t.table_name = ? and t.TABLE_SCHEMA=?  ORDER BY t.column_name
+    </sql>
+    <sql id="SQL_JHDL_DATALOAD_QUERY_MB_SHEET" describ="获取配置表excel文件的sheet信息" isLoad="true">
+		SELECT MB_ID,TABLE_NAME,SHEET_INDEX,QSHS,QSLS FROM T_JHFW_MB_FILE_SHEET T WHERE T.MB_ID=? AND T.SHEET_INDEX=?
+	</sql>
+	<sql id="SQL_JHDL_DATALOAD_QUERY_MB_COLMX" describ="获取配置表excel文件的字段以及数据库字段信息" isLoad="true">
+		SELECT MB_ID,ZD_MC,DB_COLMC,EXCEL_COLMC,SHEET_INDEX,TABLE_NAME,ZF_BJ FROM T_JHFW_MB_FILE_COLMX t WHERE T.MB_ID=? AND T.SHEET_INDEX=? AND T.TABLE_NAME=? AND T.ZF_BJ=0
+	</sql>
+</sqlfile>

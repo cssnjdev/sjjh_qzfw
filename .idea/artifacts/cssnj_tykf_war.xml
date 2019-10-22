@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="cssnj_tykf:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="cwks.war">
+      <element id="artifact" artifact-name="cssnj_tykf:war exploded" />
+    </root>
+  </artifact>
+</component>

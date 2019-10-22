@@ -1,0 +1,34 @@
+<!DOCTYPE>
+<html>
+	<head>
+		<title>任务回退</title>
+		<meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		
+		<link rel="stylesheet" type="text/css" href="../../public/css/common.css">
+		<link rel="stylesheet" type="text/css" href="../../public/css/easyui.css">
+		<link rel="stylesheet" type="text/css" href="../../public/css/easyui_animation.css">
+		<link rel="stylesheet" type="text/css" href="../../public/css/easyui_plus.css">
+		<link rel="stylesheet" type="text/css" href="../../public/css/insdep_theme_default.css">
+		<link rel="stylesheet" type="text/css" href="../../public/css/icon.css">
+		<script type="text/javascript" src="../../public/js/jquery.min.js"></script>
+		<script type="text/javascript" src="../../public/js/jquery.easyui.min.js"></script>
+		<script type="text/javascript" src="../../public/js/jquery.insdep-extend.min.js"></script>
+		<script type="text/javascript" src="../../config/workflow_config.js"></script>
+		<style>
+			table td{
+				font-size:12px;
+			}
+		</style>
+	</head>
+	<body class="easyui-layout" data-options="fit:true">
+		<div region="north" border="false"  collapsible="false" style="height: 100%">
+			<table id="rwtb">
+			</table>
+		</div>
+		<div id="tBar" style="padding:5px 10px">
+		    <a href="#" class="easyui-linkbutton" data-options="iconCls:'icon-back',plain:true" onclick="back();">回退</a>
+		</div>
+	</body>
+	<script type="text/javascript" src="rwht.js"></script>
+</html>

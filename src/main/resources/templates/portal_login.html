@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<title>CSSNJ·登陆</title>
+		<link rel="stylesheet" th:href="@{/js/plugin/layui/css/layui.css}" type="text/css">
+		<link rel="stylesheet" th:href="@{/css/login/login.css}" type="text/css">
+		<style>
+			/* 覆盖原框架样式 */
+			.layui-elem-quote{background-color: inherit!important;}
+			.layui-input, .layui-select, .layui-textarea{background-color: inherit; padding-left: 30px;}
+		</style>
+	</head>
+	<body>
+		<!-- Head -->
+		<div class="layui-fluid">
+			<div class="layui-row layui-col-space15">
+				<div class="layui-col-sm12 layui-col-md12 zyl_mar_01">
+					<blockquote class="layui-elem-quote"><h1>CSSNJ简约后台登陆界面</h1></blockquote>
+				</div>
+			</div>
+		</div>
+		<!-- Head End -->
+		<!-- Carousel -->
+		<div class="layui-row">
+			<div class="layui-col-sm12 layui-col-md12">
+				<div class="layui-carousel zyl_login_height" id="zyllogin" lay-filter="zyllogin">
+					<div carousel-item="">
+						<div>
+							<div class="zyl_login_cont"></div>
+						</div>
+						<div>
+							<div class="background">
+								<span></span><span></span><span></span>
+								<span></span><span></span><span></span>
+								<span></span><span></span><span></span>
+								<span></span><span></span><span></span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Carousel End -->
+
+		<!-- Footer -->
+		<div class="layui-row">
+			<div class="layui-col-sm12 layui-col-md12 zyl_center zyl_mar_01">
+				© cssnj.com.cn - Copyright © 2019.All rights南京中软软件与技术服务有限公司 苏ICP备13048600号
+			</div>
+		</div>
+		<!-- Footer End -->
+
+
+
+		<!-- LoginForm -->
+		<div class="zyl_lofo_main">
+			<fieldset class="layui-elem-field layui-field-title zyl_mar_02">
+				<legend>欢迎登陆 - 通用开发管理平台</legend>
+			</fieldset>
+			<div class="layui-row layui-col-space15">
+				<form class="layui-form zyl_pad_01" action="">
+					<div class="layui-col-sm12 layui-col-md12">
+						<div class="layui-form-item">
+							<input type="text" name="userName" lay-verify="required|userName" autocomplete="off" placeholder="账号" class="layui-input">
+							<i class="layui-icon layui-icon-username zyl_lofo_icon"></i>
+						</div>
+					</div>
+					<div class="layui-col-sm12 layui-col-md12">
+						<div class="layui-form-item">
+							<input type="password" name="nuse" lay-verify="required|pass" autocomplete="off" placeholder="密码" class="layui-input">
+							<i class="layui-icon layui-icon-password zyl_lofo_icon"></i>
+						</div>
+					</div>
+					<div class="layui-col-sm12 layui-col-md12">
+						<div class="layui-row">
+							<div class="layui-col-xs4 layui-col-sm4 layui-col-md4">
+								<div class="layui-form-item">
+									<input type="text" name="vercode" id="vercode" lay-verify="required|vercodes" autocomplete="off" placeholder="验证码" class="layui-input" maxlength="4">
+									<i class="layui-icon layui-icon-vercode zyl_lofo_icon"></i>
+								</div>
+							</div>
+							<div class="layui-col-xs4 layui-col-sm4 layui-col-md4">
+								<div class="zyl_lofo_vercode zylVerCode" onclick="zylVerCode()"></div>
+							</div>
+						</div>
+					</div>
+					<div class="layui-col-sm12 layui-col-md12"><div class="layui-form-item"></div></div>
+					<div class="layui-col-sm12 layui-col-md12"><div class="layui-form-item"></div></div>
+					<div class="layui-col-sm12 layui-col-md12"><div class="layui-form-item"></div></div>
+					<div class="layui-col-sm12 layui-col-md12">
+						<button class="layui-btn layui-btn-fluid" lay-submit="" lay-filter="demo1">立即登录</button>
+					</div>
+				</form>
+			</div>
+		</div>
+		<!-- LoginForm End -->
+
+		<!-- Jquery Js -->
+		<script data-th-src="@{/js/plugin/layui/css/jquery-3.4.1.min.js}"></script>
+		<!-- Layui Js -->
+		<script data-th-src="@{/js/plugin/layui/layui.js}"></script>
+		<!-- Jqarticle Js -->
+		<script data-th-src="@{/js/login/jparticle.min.js}"></script>
+		<script th:inline="javascript">
+            var ctx = [[@{/}]];
+            var portal_login_url = [[${portal_login_url}]];
+		</script>
+		<script data-th-src="@{/js/portal_login.js}"></script>
+	</body>
+</html>

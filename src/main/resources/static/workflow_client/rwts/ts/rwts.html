@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+<head>
+    <title>任务推送</title>
+    <meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="../../public/css/insdep_theme_default.css">
+<link rel="stylesheet" type="text/css" href="../../public/css/easyui.css">
+<link rel="stylesheet" type="text/css" href="../../public/css/icon.css">
+<script type="text/javascript" src="../../public/js/jquery.min.js"></script>
+<script type="text/javascript" src="../../public/js/jquery.easyui.min.js"></script>
+</head>
+<body>
+<div class="easyui-layout" fit="true">
+  <div
+            data-options="region:'west',split:false,collapsible:false,title:''"
+            style="width:30%;padding:0px;">
+        <div id="tabs" class="easyui-tabs" style="height:100%;">
+        <div title="推送人员"
+             style="height:100%;padding:10px;">
+            <ul id="tsryTree" class="easyui-tree"
+                data-options="checkbox:true,
+						animate: true,
+						onContextMenu: function(e,node){
+							e.preventDefault();
+							$(this).tree('select',node.target);
+							$('#mm').menu('show',{
+								left: e.pageX,
+								top: e.pageY
+							});
+						}"></ul>
+        </div>
+        <div title="观察人员" style="height:100%;padding:10px;">
+        	<ul id="gcryTree" class="easyui-tree"
+                data-options="checkbox:true,
+						animate: true,
+						onContextMenu: function(e,node){
+							e.preventDefault();
+							$(this).tree('select',node.target);
+							$('#mm').menu('show',{
+								left: e.pageX,
+								top: e.pageY
+							});
+						}"></ul>
+        </div>
+        </div>
+    </div>
+    <div data-options="region:'center',split:false,collapsible:false" style="width:70%;padding:0px">
+    	 <table id="tsryTb" style="height: 50%"></table>
+    	 <table id="gcryTb" style="height: 50%"></table>
+    </div>
+</div>
+<div id="tsryBar" style="padding:5px 10px">
+    <a href="#" class="easyui-linkbutton" data-options="iconCls:'icon-remove',plain:true" onclick="deleteRow('#tsryTree','#tsryTb');">删除</a>
+    <a href="#" class="easyui-linkbutton" data-options="iconCls:'icon-ok',plain:true" onclick="send();">推送</a>
+</div>
+<div id="gcryBar" style="padding:5px 10px">
+    <a href="#" class="easyui-linkbutton" data-options="iconCls:'icon-remove',plain:true" onclick="deleteRow('#gcryTree','#gcryTb');">删除</a>
+</div>
+	<script type="text/javascript" src="../../config/workflow_config.js"></script>
+    <script type="text/javascript" src="rwts.js"></script>
+</body>
+</html>

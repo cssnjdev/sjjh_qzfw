@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.cwks.biz.demo.dao.JhfwMbFileColmxMapper">
+  <resultMap id="BaseResultMap" type="com.cwks.biz.demo.domain.JhfwMbFileColmx">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="MB_ID" jdbcType="VARCHAR" property="mbId" />
+    <id column="SHEET_INDEX" jdbcType="DECIMAL" property="sheetIndex" />
+    <id column="DB_COLMC" jdbcType="VARCHAR" property="dbColmc" />
+    <result column="TABLE_NAME" jdbcType="VARCHAR" property="tableName" />
+    <result column="EXCEL_COLMC" jdbcType="VARCHAR" property="excelColmc" />
+    <result column="ZD_MC" jdbcType="VARCHAR" property="zdMc" />
+    <result column="ZF_BJ" jdbcType="CHAR" property="zfBj" />
+    <result column="DB_COLMC_TYPE" jdbcType="VARCHAR" property="dbColmcType" />
+    <result column="DB_COLMC_LEN" jdbcType="DECIMAL" property="dbColmcLen" />
+  </resultMap>
+  <update id="deleteByMbId" parameterType="com.cwks.biz.demo.domain.JhfwMbFileColmx">
+    	 delete from T_JHFW_MB_FILE_COLMX where  MB_ID = #{mbId,jdbcType=VARCHAR}
+  </update>
+  <update id="deleteByMbIdAndSheetIndex" parameterType="com.cwks.biz.demo.domain.JhfwMbFileColmx">
+    	 delete from T_JHFW_MB_FILE_COLMX where  MB_ID = #{mbId,jdbcType=VARCHAR} and SHEET_INDEX = #{sheetIndex,jdbcType=DECIMAL}
+  </update>
+</mapper>

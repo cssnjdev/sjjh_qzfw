@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>南京中软通用开发平台</title>
+    <link rel="stylesheet" data-th-href="@{/js/plugin/layui/css/layui.css}"/>
+    <style>
+        iframe {
+            width: 100%;
+            height: 100%;
+        }
+        .layui-layout-admin .layui-header {
+            background-color: #1E9FFF !important
+        }
+        .layui-nav-tree .layui-nav-child a {
+            color: black;
+        }
+        .layui-nav-itemed > a, .layui-nav-tree .layui-nav-title a, .layui-nav-tree .layui-nav-title a:hover {
+            color: black !important;
+            font-size: 15px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body class="layui-layout-body">
+<div class="layui-layout layui-layout-admin">
+    <div class="layui-header">
+        <div class="layui-logo" style="color: white;"><h3>通用平台开发者首页</h3></div>
+        <ul class="layui-nav layui-layout-left">
+        </ul>
+        <ul class="layui-nav layui-layout-right">
+            <li class="layui-nav-item">
+                <a href="javascript:;">
+                    <img src="/image/cssnj.jpg" class="layui-nav-img">
+                    南京中软通用开发平台
+                </a>
+                <dl class="layui-nav-child">
+                    <dd><a href="">基本资料</a></dd>
+                    <dd><a href="">安全设置</a></dd>
+                </dl>
+            </li>
+            <li class="layui-nav-item"><a href="javascript:;" onclick="loginOut();">退出</a></li>
+        </ul>
+    </div>
+
+    <div class="layui-side layui-bg-black">
+        <div class="layui-side-scroll" style="background-color:#dcdcdc">
+            <!-- 左侧导航区域（可配合layui已有的垂直导航） -->
+            <ul id="left_nav" class="layui-nav layui-nav-tree" style="background-color:#dcdcdc" lay-filter="test">
+            </ul>
+        </div>
+    </div>
+
+    <div class="layui-body" style="overflow-y: hidden;">
+        <!-- 内容主体区域 -->
+        <div class="layui-tab" lay-filter="demo" lay-allowClose="true">
+            <ul class="layui-tab-title">
+            </ul>
+            <div class="layui-tab-content">
+            </div>
+        </div>
+    </div>
+
+    <div class="layui-footer">
+        <!-- 底部固定区域 -->
+        © cssnj.com.cn - Copyright © 2019.All rights南京中软软件与技术服务有限公司 苏ICP备13048600号
+    </div>
+</div>
+<script th:inline="javascript">
+    var ctx = [[${ctx}]];
+    var portal_index_url = [[${portal_index_url}]];
+</script>
+<script data-th-src="@{/js/plugin/layui/layui.js}"></script>
+<script data-th-src="@{/js/plugin/layui/css/jquery-3.4.1.min.js}"></script>
+<script data-th-src="@{/js/portal_index.js}"></script>
+</body>
+</html>

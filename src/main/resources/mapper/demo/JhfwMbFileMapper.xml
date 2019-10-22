@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.cwks.biz.demo.dao.JhfwMbFileMapper">
+  <resultMap id="BaseResultMap" type="com.cwks.biz.demo.domain.JhfwMbFile">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="MB_ID" jdbcType="VARCHAR" property="mbId" />
+    <result column="MB_MC" jdbcType="VARCHAR" property="mbMc" />
+    <result column="MB_MS" jdbcType="VARCHAR" property="mbMs" />
+    <result column="YWDL_DM" jdbcType="VARCHAR" property="ywdlDm" />
+    <result column="YWXL_DM" jdbcType="VARCHAR" property="ywxlDm" />
+    <result column="YX_BJ" jdbcType="CHAR" property="yxBj" />
+    <result column="MB_LX" jdbcType="CHAR" property="mbLx" />
+    <result column="LRRQ" jdbcType="TIMESTAMP" property="lrrq" />
+  </resultMap>
+</mapper>

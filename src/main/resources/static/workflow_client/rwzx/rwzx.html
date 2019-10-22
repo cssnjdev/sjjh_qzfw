@@ -1,0 +1,100 @@
+<!DOCTYPE>
+<html>
+	<head>
+		<title>任务中心</title>
+		<meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+		<link rel="stylesheet" type="text/css" href="/public/js/ext/easyui/1.5.1/themes/insdep/easyui.css"
+		<link rel="stylesheet" type="text/css" href="/public/js/ext/easyui/1.5.1/themes/insdep/easyui_animation.css">
+		<link rel="stylesheet" type="text/css" href="/public/js/ext/easyui/1.5.1/themes/insdep/easyui_plus.css">
+		<link rel="stylesheet" type="text/css" href="/public/js/ext/easyui/1.5.1/themes/insdep/insdep_theme_default.css">
+		<link rel="stylesheet" type="text/css" href="/public/js/ext/easyui/1.5.1/themes/insdep/icon.css">
+
+		<script type="text/javascript" src="/public/js/ext/easyui/1.5.1/jquery.min.js"></script>
+		<script type="text/javascript" src="/public/js/ext/easyui/1.5.1/jquery.easyui.min.js"></script>
+		<script type="text/javascript" src="/public/js/ext/easyui/1.5.1/themes/insdep/jquery.insdep-extend.min.js"></script>
+		<script type="text/javascript" src="../config/workflow_config.js"></script>
+		<style>
+		
+			table td{
+				font-size:12px;
+			}
+			
+			/*
+			.datagrid-header, .datagrid-td-rownumber {
+				    background-color: #7bbfea;
+				    color:white;
+				    background-repeat: repeat-x;
+				}
+			
+			.datagrid-header td {
+    			color: white;
+			}
+			
+			
+			 .datagrid-header td.datagrid-header-over {
+				    background-color: #7bbfea;
+				    color:white;
+				    cursor:pointer;
+				}
+			
+			.datagrid-row-over {
+				 background-color: #9ce0ff;
+			}
+			
+			
+			
+			.tabs li a.tabs-inner:hover, .tabs li.tabs-selected a.tabs-inner {
+				background-color:white;
+				color:#333;
+			}
+			
+			.tabs li a.tabs-inner {
+				background-color:#7bbfea;
+				color:white;
+			}
+			
+			.tabs-header, .tabs-scroller-left, .tabs-scroller-right, .tabs-tool, .tabs, .tabs-panels, .tabs li a.tabs-inner, .tabs li.tabs-selected a.tabs-inner, .tabs-header-bottom .tabs li.tabs-selected a.tabs-inner, .tabs-header-left .tabs li.tabs-selected a.tabs-inner, .tabs-header-right .tabs li.tabs-selected a.tabs-inner
+			{
+				border-color:#eee;
+			}
+			
+			.datagrid-row-alt {
+				background:;
+			}*/
+		</style>
+	</head>
+	<body class="easyui-layout" data-options="fit:true">
+			<div id="tt" class="easyui-tabs" data-options="fit:true" style="height: 100%">
+				<!--<div title="消息列表">
+					消息信息
+				</div>
+				-->
+				
+				<div title="待办任务">
+					<table id="dbrw">
+					</table>
+				</div>
+				<div title="委托任务">
+					<table id="dwtrw">
+					</table>
+				</div>
+				<div title="抄送任务">
+					<table id="csrw">
+					</table>
+				</div>
+				<div title="在办任务" data-options="">
+					<table id="zbrw">
+					</table>
+				</div>
+				<div title="已办任务" data-options="">
+					<table id="ybrw">
+					</table>
+				</div>
+				
+				
+			</div>
+	</body>
+		<script type="text/javascript" src="rwzx.js"></script>
+</html>

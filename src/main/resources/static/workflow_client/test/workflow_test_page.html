@@ -1,0 +1,182 @@
+<!doctype html>
+<html>
+<head>
+<title>工作流测试页面</title>
+	<link rel="stylesheet" type="text/css" href="/public/js/ext/easyui/1.5.1/themes/insdep/easyui.css">
+	<link rel="stylesheet" type="text/css" href="/public/js/ext/easyui/1.5.1/themes/insdep/easyui_animation.css">
+	<link rel="stylesheet" type="text/css" href="/public/js/ext/easyui/1.5.1/themes/insdep/easyui_plus.css">
+	<link rel="stylesheet" type="text/css" href="/public/js/ext/easyui/1.5.1/themes/insdep/insdep_theme_default.css">
+	<link rel="stylesheet" type="text/css" href="/public/js/ext/easyui/1.5.1/themes/insdep/icon.css">
+	
+	<script type="text/javascript" src="/public/js/comm/common.js"></script>
+	<script type="text/javascript" src="/public/js/comm/common_alert.js"></script>
+	<script type="text/javascript" src="/public/js/ext/easyui/1.5.1/jquery.min.js"></script>
+	<script type="text/javascript" src="/public/js/ext/easyui/1.5.1/jquery.easyui.min.js"></script>
+	<script type="text/javascript" src="/public/js/ext/easyui/1.5.1/themes/insdep/jquery.insdep-extend.min.js"></script>
+	<script type="text/javascript" src="/public/js/ext/easyui/1.5.1/locale/easyui-lang-zh_CN.js"></script>
+    <script type="text/javascript" src="/workflow_client/config/workflow_config.js"></script>
+    <script type="text/javascript" src="/workflow_client/core/workflow.js"></script>
+    <script type="text/javascript" src="/workflow_client/ext/workflow_ext.js"></script>
+<script type="text/javascript">
+	function start_worklfow_test_save(){
+		   if ($("#workflow_test_form").form("validate")) {
+		        var dataObj= getFormJSON("#workflow_test_form");
+		        var lcdyid=dataObj.lcdyid;
+		        dataObj.lcdyid=lcdyid.toUpperCase();
+		        cssnj_workflow_start(dataObj);
+		    }else{
+		        alertBottomRightAutoClose('提示','表单验证不通过!');
+		    }
+	}
+	function RndNum(n){
+	    var rnd="";
+	    for(var i=0;i<n;i++)
+	        rnd+=Math.floor(Math.random()*10);
+	    return rnd;
+	}
+	function init(){
+		 $("#bizMc").textbox("setValue", "工作流启动测试("+getNowFormatDate()+")");
+		 $("#bizId").textbox("setValue", new Date().getMilliseconds()+""+RndNum(20)+"a");
+		 $("#lcjgdm").textbox("setValue", "23201230000");
+		 $("#qdjg").textbox("setValue", "23201231200");
+		 $("#qdgw").textbox("setValue", "232000000040");
+		 $("#qdry").textbox("setValue", "23201001223");
+		 $("#cssnj_workflow_params").textbox("setValue", "");
+		 $('#lcdyid').combobox({
+	        	url:"http://221.226.106.171:18895/cssnj/ajax.action?tld=GzlStartTestService_selectComboLcdyid",
+		        valueField:'id',
+		        textField:'text',
+		        editable: false,
+		        panelHeight:'auto',
+		        onChange:function(){
+		        	$("#tsryList").textbox("setValue",
+				"{"+this.value.toUpperCase()+"_1:[{dbry_dm:\"23201000946\",dbry_jgdm:\"23201051100\",dbry_gwdm:\"232000000040\"},{dbry_dm:\"23201001282\",dbry_jgdm:\"23201231200\",dbry_gwdm:\"232000000019\"}]}");
+		        }
+		    });
+	}
+		//启动成功后事件 
+	function cssnj_workflow_start_after_success(processInstanceId) {
+		alert("工作流启动成功，processInstanceId：" + processInstanceId);
+	}
+
+	//启动失败后事件 
+	function cssnj_workflow_start_after_fail(errorMsg) {
+		alert("启动失败:" + errorMsg);
+	}
+	  
+	//推送成功事件 
+	function cssnj_workflow_send_after_success() {
+		alert("推送成功");
+	}
+
+	//推送失败事件 
+	function cssnj_workflow_send_after_fail(step, errorMsg) {
+		alert("推送失败：" + errorMsg);
+	}
+	
+function getNowFormatDate() {
+
+    var date = new Date();
+
+    var seperator1 = "-";
+
+    var seperator2 = ":";
+
+    var month = date.getMonth() + 1;
+
+    var strDate = date.getDate();
+
+    if (month >= 1 && month <= 9) {
+
+        month = "0" + month;
+
+    }
+
+    if (strDate >= 0 && strDate <= 9) {
+
+        strDate = "0" + strDate;
+
+    }
+
+    var currentdate = date.getFullYear() + seperator1 + month + seperator1 + strDate
+
+            + " " + date.getHours() + seperator2 + date.getMinutes()
+
+            + seperator2 + date.getSeconds();
+
+    return currentdate;
+} 
+</script>
+</head>
+<body onload="init();">
+	<div id="workflow_test_toolbar" style="padding:5px 10px">
+		<div>
+			<a href="javascript:void(0);" class="easyui-linkbutton"
+				data-options="plain:true,iconCls:'icon-save'" onclick="start_worklfow_test_save()">启动工作流</a>
+		</div>
+	</div>
+	<form id="workflow_test_form">
+		<table class="formtable" align="center" style="width: 60%">
+			<tr style="display:none;">
+				<th><label>bizMc：</label>
+				</th>
+				<td><input class="easyui-textbox" missingMessage="请填写！"
+					data-options="required:true" style="width:400px;" name="bizMc"
+					id="bizMc" />
+				</td>
+				<th><label>bizId：</label>
+				</th>
+				<td><input class="easyui-textbox" missingMessage="请填写！"
+					data-options="required:true"  style="width:400px;" name="bizId"
+					id="bizId" />
+				</td>
+			</tr>
+			<tr>
+				<th><label>lcdyid：</label>
+				</th>
+				<td><input class="easyui-combobox" missingMessage="请填写！"
+					data-options="required:true" style="width:400px;" name="lcdyid"
+					id="lcdyid" />
+				</td>
+				<th><label>lcjgdm：</label>
+				</th>
+				<td><input class="easyui-textbox" missingMessage="请填写！"
+					data-options="required:true" style="width:400px;" name="lcjgdm"
+					id="lcjgdm" />
+				</td>
+			</tr>
+			<tr>
+				<th><label>qdjg：</label>
+				</th>
+				<td><input class="easyui-textbox" data-options="required:true"
+					style="width:400px;" name="qdjg" id="qdjg" />
+				</td>
+				<th><label>qdgw：</label>
+				</th>
+				<td><input class="easyui-textbox" data-options="required:true"
+					style="width:400px;" name="qdgw" id="qdgw" />
+				</td>
+			</tr>
+			<tr>
+				<th><label>qdry：</label>
+				</th>
+				<td><input class="easyui-textbox" data-options="required:true"
+					style="width:400px;" name="qdry" id="qdry" />
+				</td>
+				<th><label>cssnj_workflow_params：</label>
+				</th>
+				<td><input class="easyui-textbox" data-options="required:false"
+					style="width:400px;" name="cssnj_workflow_params" id="cssnj_workflow_params" />
+				</td>
+			</tr>
+			<tr>
+				<th><label>tsryList：</label>
+				</th>
+				<td colspan="3">
+					<textarea class="easyui-textbox" style="width:98%;height:100px" data-options="required:true" name="tsryList" id="tsryList"></textarea>
+				</td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
