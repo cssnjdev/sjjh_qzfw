@@ -262,6 +262,7 @@ public class FileExConfService {
                                                                     sql_col_edit = "comment on column " + table_schema+"."+table_name + "."+conf_column_name.toLowerCase()+" is '"+conf_column_ms+"'" ;
                                                                     st.addBatch(sql_col_edit);
                                                                 }
+                                                                dbColNameColList.add(conf_column_name);
                                                             }
                                                         }
                                                     }
