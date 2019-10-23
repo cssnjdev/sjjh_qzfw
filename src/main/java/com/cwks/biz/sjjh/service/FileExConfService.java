@@ -80,9 +80,9 @@ public class FileExConfService {
         ConcurrentHashMap dataSourceMap = JhQzFwContext.singleton().getDataSourceMap();
         String db_type = null;
         if(dataSourceMap.get(dataSource_biz_id) != null){
-            ConcurrentHashMap<String, String> db_info_biz_Map = (ConcurrentHashMap)dataSourceMap.get("dataSource_biz_id");
-            if(db_info_biz_Map.get("db_info_biz_Map") != null){
-                String driverClassName = db_info_biz_Map.get("db_info_biz_Map");
+            ConcurrentHashMap<String, String> db_info_biz_Map = (ConcurrentHashMap)dataSourceMap.get(dataSource_biz_id);
+            if(db_info_biz_Map.get("driverClassName") != null){
+                String driverClassName = db_info_biz_Map.get("driverClassName");
                 if(driverClassName.indexOf("mysql") != -1){
                     db_type = "MYSQL";
                 }else if(driverClassName.indexOf("OracleDriver") != -1){
@@ -112,6 +112,8 @@ public class FileExConfService {
         status_conf = transactionManager_conf.getTransaction(def);// 返回事务对象
         status_biz = transactionManager_biz.getTransaction(def);// 返回事务对象
         Connection conn_biz = dataSource_biz.getConnection();
+        Statement st = null;
+        st = conn_biz.createStatement();
         try {
             //获取模板配置表信息
             ArrayList params = new ArrayList();
@@ -123,7 +125,6 @@ public class FileExConfService {
                 StringBuffer sbf_sqlcreate = null;
                 StringBuffer sbf_sqledit = null;
                 PreparedStatement ps = null;
-                Statement st = null;
                 List<Map> result_conf = null;
                 ArrayList params_mx = null;
                 ArrayList params_tab_mx = null;
@@ -136,7 +137,7 @@ public class FileExConfService {
                     table_name = (String)map_tab.get("table_name");
                     table_ms = (String)map_tab.get("table_ms");
                     table_schema = (String)map_tab.get("table_schema");
-                    sheet_index = (String)map_tab.get("sheet_index");
+                    sheet_index =map_tab.get("sheet_index").toString();
                     if(table_name != null && !"".equals(table_name) && table_schema != null && !"".equals(table_schema) ){
                         try {
                             colList = null;
@@ -147,22 +148,22 @@ public class FileExConfService {
                                     params_tab_mx.add(table_name);
                                     params_tab_mx.add(table_schema);
                                     colList = dataSourceUtils_biz.queryforlist(SystemContext.getSql("SQL_JHDL_GET_TABLE_STRUCTURE_BY_TBNAME_OWNER_MYSQL"), params_tab_mx);
-                                    tabCommList = dataSourceUtils_biz.queryforlist(SystemContext.getSql("SQL_JHDL_GET_TABLE_COMMENTS_BY_TBNAME_ORACLE"), params_tab_mx);
+                                    tabCommList = dataSourceUtils_biz.queryforlist(SystemContext.getSql("SQL_JHDL_GET_TABLE_COMMENTS_BY_TBNAME_MYSQL"), params_tab_mx);
                                 }else{
                                     params_tab_mx.add(table_name);
                                     colList = dataSourceUtils_biz.queryforlist(SystemContext.getSql("SQL_JHDL_GET_TABLE_STRUCTURE_BY_TBNAME_MYSQL"), params_tab_mx);
-                                    tabCommList = dataSourceUtils_biz.queryforlist(SystemContext.getSql("SQL_JHDL_GET_TABLE_COMMENTS_BY_TBNAME_ORACLE"), params_tab_mx);
+                                    tabCommList = dataSourceUtils_biz.queryforlist(SystemContext.getSql("SQL_JHDL_GET_TABLE_COMMENTS_BY_TBNAME_MYSQL"), params_tab_mx);
                                 }
                             }else{
                                 if(table_schema != null && !"".equals(table_schema)){
                                     params_tab_mx.add(table_name.toUpperCase());
                                     params_tab_mx.add(table_schema.toUpperCase());
                                     colList = dataSourceUtils_biz.queryforlist(SystemContext.getSql("SQL_JHDL_GET_TABLE_STRUCTURE_BY_TBNAME_OWNER_ORACLE"), params_tab_mx);
-                                    tabCommList = dataSourceUtils_biz.queryforlist(SystemContext.getSql("SQL_JHDL_GET_TABLE_COMMENTS_BY_TBNAME_MYSQL"), params_tab_mx);
+                                    tabCommList = dataSourceUtils_biz.queryforlist(SystemContext.getSql("SQL_JHDL_GET_TABLE_COMMENTS_BY_TBNAME_ORACLE"), params_tab_mx);
                                 }else{
                                     params_tab_mx.add(table_name.toUpperCase());
                                     colList = dataSourceUtils_biz.queryforlist(SystemContext.getSql("SQL_JHDL_GET_TABLE_STRUCTURE_BY_TBNAME_ORACLE"), params_tab_mx);
-                                    tabCommList = dataSourceUtils_biz.queryforlist(SystemContext.getSql("SQL_JHDL_GET_TABLE_COMMENTS_BY_TBNAME_MYSQL"), params_tab_mx);
+                                    tabCommList = dataSourceUtils_biz.queryforlist(SystemContext.getSql("SQL_JHDL_GET_TABLE_COMMENTS_BY_TBNAME_ORACLE"), params_tab_mx);
                                 }
                             }
                             if(tabCommList != null && tabCommList.size() >0){
@@ -208,27 +209,29 @@ public class FileExConfService {
                                         dbConfColNameColList.add(((String) db_conf_resmap.get("DB_COLMC")).toUpperCase());
                                     }
                                 }
+                                iter_db = colList.iterator();
                                 while (iter_db.hasNext()) {
                                     db_resmap = (Map<?, ?>) iter_db.next();
                                     db_column_name = (String) db_resmap.get("column_name");
                                     db_data_type = (String) db_resmap.get("data_type");
                                     db_data_scale = db_resmap.get("data_scale") == null ? null : new BigDecimal(db_resmap.get("data_scale").toString()).longValue();
-                                    db_data_length = db_resmap.get("data_length") == null ? null : db_resmap.get("data_length").toString();
-                                    db_column_ms = db_resmap.get("column_ms") == null ? null : db_resmap.get("column_ms").toString();
+                                    db_data_length = db_resmap.get("data_length") == null ? "" : db_resmap.get("data_length").toString();
+                                    db_column_ms = db_resmap.get("comments") == null ? "" : db_resmap.get("comments").toString();
                                     if (result_conf != null && result_conf.size() > 0) {
-                                        st = conn_biz.createStatement();
+                                        //st = conn_biz.createStatement();
                                         ms_list = new ArrayList();
                                         //配置表的字段不包含目前数据库中现有表的这个字段
                                         if(!dbConfColNameColList.contains(db_column_name)){
-                                            sql_col_edit = "alter table " + table_schema+"."+table_name + "."+conf_column_name.toLowerCase()+" drop column "+db_column_name.toLowerCase();
+                                            sql_col_edit = "alter table " + table_schema+"."+table_name +" drop column "+db_column_name.toLowerCase();
                                             st.addBatch(sql_col_edit);
                                         }else{//配置表的字段包含目前数据库中现有表的这个字段
+                                        	iter_conf = result_conf.iterator();
                                             while (iter_conf.hasNext()) {
+                                            	conf_column_name = (String) db_conf_resmap.get("DB_COLMC");
                                                 db_conf_resmap = (Map<?, ?>) iter_conf.next();
-                                                conf_column_name = (String) db_conf_resmap.get("DB_COLMC");
                                                 conf_column_ms = (String) db_conf_resmap.get("ZD_MC");
                                                 conf_data_type = (String) db_conf_resmap.get("db_colmc_type");
-                                                conf_data_length = (String) db_conf_resmap.get("db_colmc_len");
+                                                conf_data_length = db_conf_resmap.get("db_colmc_len")+"";
                                                 if(db_column_name.toUpperCase().equals(conf_column_name.toUpperCase()) && db_data_type.toUpperCase().equals(conf_data_type.toUpperCase())
                                                         && db_data_length.equals(conf_data_length) && db_column_ms.equals(conf_column_ms)){
                                                     continue;
@@ -267,22 +270,21 @@ public class FileExConfService {
                                         }
                                         // 执行批处理sql
                                         st.executeBatch();
-                                        st.clearBatch();
-                                        st.close();
+                                        //st.close();
                                     }
                                 }
                             }else{//数据库中没有这张表
                                 sbf_sqlcreate = new StringBuffer("create table " + table_schema+"."+table_name + " (");
                                 sql_tab_ms_tmp = "comment on table " + table_schema+"."+table_name + " is '"+table_ms+"'" ;
                                 if (result_conf != null && result_conf.size() > 0) {
-                                    st = conn_biz.createStatement();
+                                    //st = conn_biz.createStatement();
                                     ms_list = new ArrayList();
                                     while (iter_conf.hasNext()) {
                                         db_conf_resmap = (Map<?, ?>) iter_conf.next();
                                         conf_column_name = (String) db_conf_resmap.get("DB_COLMC");
                                         conf_column_ms = (String) db_conf_resmap.get("ZD_MC");
                                         conf_data_type = (String) db_conf_resmap.get("db_colmc_type");
-                                        conf_data_length = (String) db_conf_resmap.get("db_colmc_len");
+                                        conf_data_length = db_conf_resmap.get("db_colmc_len")+"";
                                         sql_col_ms_create = "comment on column " + table_schema+"."+table_name + "."+conf_column_name.toLowerCase()+" is '"+conf_column_ms+"'" ;
                                         ms_list.add(sql_col_ms_create);
                                         sbf_sqlcreate.append(conf_column_name.toLowerCase() + " ");
@@ -301,8 +303,6 @@ public class FileExConfService {
                                     }
                                     // 执行批处理sql
                                     st.executeBatch();
-                                    st.clearBatch();
-                                    st.close();
                                 }
                             }
                         } catch (Exception e) {
@@ -312,13 +312,14 @@ public class FileExConfService {
                             resEvent.setResStr("");
                         } finally {
                             try {
-                                if(conn_biz != null){
-                                    conn_biz.close();;
-                                }
-                                if(st != null){
-                                    st.close();
-                                }
+//                                if(conn_biz != null){
+//                                    conn_biz.close();;
+//                                }
+//                                if(st != null){
+//                                    st.close();
+//                                }
                             } catch (Exception ce) {
+                                transactionManager_biz.rollback(status_biz);
                                 LogWritter.sysError("更新创建表失败，关闭连接错误", ce);
                                 resEvent.setResCode(-1);
                                 resEvent.setResMsg("更新创建表失败，关闭连接错误"+ce.getMessage());
@@ -328,29 +329,25 @@ public class FileExConfService {
                     }
                 }
             }
+            st.clearBatch();
         }catch (Exception e) {
-            transactionManager_conf.rollback(status_conf);
             transactionManager_biz.rollback(status_biz);
             LogWritter.bizError("error: "+this.getClass().getName()+".dealBiz方法异常：",e);
             resEvent.setResStr(BizErrorMsgContext.singleton().getValueAsString("BIZ.SJJHPT.QZFW.WBWSFW.ERR_00_0009")+","+e.toString());
             resEvent.setResCode(-1);
             return resEvent;
         }finally {
-            transactionManager_conf.commit(status_conf);
-            transactionManager_biz.commit(status_biz);
+        	if(st != null){
+              st.close();
+            }
+        	if(conn_biz != null){
+                conn_biz.close();;
+            }
+//            transactionManager_conf.commit(status_conf);
+//            transactionManager_biz.commit(status_biz);
             dataSourceUtils_conf.closeConnection();
             dataSourceUtils_biz.closeConnection();
         }
-        /*if (resourceRuleMap == null) {
-            resEvent.setResCode(-1);
-            resEvent.setResMsg("tran_id:" + tran_id + ",交换数据处理失败，资源[" + resource_id + "]未找到匹配的前置处理逻辑规则!");
-            resEvent.setResStr("");
-            return resEvent;
-        }*/
-
-        ConcurrentHashMap resMap = null;
-        JhQzFwContext qzfw = JhQzFwContext.singleton();
-        Map resource_map = qzfw.getResourceRuleMapById((String) reqMap.get("RESOURCE_ID"));
         resEvent.setResCode(resEvent.getResCode());
         resEvent.setResMsg(resEvent.getResMsg());
         resEvent.setResStr(resEvent.getResStr());
@@ -384,7 +381,7 @@ public class FileExConfService {
         } else if ("NUMBER".equals(conf_data_type.toUpperCase()) || "INT".equals(conf_data_type.toUpperCase()) || "BIGINT".equals(conf_data_type.toUpperCase())) {
             sbf_sqledit.append(" NUMBER(" + conf_data_length + ")  ");
         }else {
-            sbf_sqledit.append(conf_data_type + " ");
+            sbf_sqledit.append(" "+ conf_data_type + " ");
         }
         return sbf_sqledit;
     }

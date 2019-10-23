@@ -12,10 +12,10 @@
         on a.TABLE_NAME=b.table_name) c where c.owner=? and c.Table_Type='TABLE' and c.table_name=?
     </sql>
     <sql id="SQL_JHDL_GET_TABLE_STRUCTURE_BY_TBNAME_ORACLE" describ="ORACLE下获取相关表结构信息" isLoad="true">
-        select a.column_name,a.data_type,a.data_scale,a.data_length From all_tab_cols a Where  a.table_name =? Order By a.column_name
+        select a.column_name,a.data_type,a.data_scale,a.data_length,(select comments from all_col_comments t where t.TABLE_NAME=a.TABLE_NAME and t.COLUMN_NAME=a.COLUMN_NAME and t.OWNER=a.owner) comments  From all_tab_cols a Where  a.table_name =? Order By a.column_name
     </sql>
     <sql id="SQL_JHDL_GET_TABLE_STRUCTURE_BY_TBNAME_OWNER_ORACLE" describ="ORACLE下获取相关表结构信息" isLoad="true">
-        select a.column_name,a.data_type,a.data_scale,a.data_length From all_tab_cols a Where  a.table_name =?  and a.owner=? Order By a.column_name
+        select a.column_name,a.data_type,a.data_scale,a.data_length,(select comments from all_col_comments t where t.TABLE_NAME=a.TABLE_NAME and t.COLUMN_NAME=a.COLUMN_NAME and t.OWNER=a.owner) comments  From all_tab_cols a Where  a.table_name =?  and a.owner=? Order By a.column_name
     </sql>
     <sql id="SQL_JHDL_GET_TABLE_COMMENTS_BY_TBNAME_MYSQL" describ="MYSQL下获取相关表描述信息" isLoad="true">
         SELECT TABLE_NAME as TABLE_NAME,TABLE_COMMENT as TABLE_COMMENT FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA=? AND TABLE_NAME=?
